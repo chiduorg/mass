@@ -210,11 +210,11 @@
 .mass-page .mass-immersive .band-row small { margin-left: auto; color: var(--faint); font-size: 8px; white-space: nowrap; }
 
 .mass-page .mass-immersive .panel {
-  background: linear-gradient(145deg, rgba(12, 22, 31, .78), rgba(5, 11, 17, .66));
-  border: 1px solid rgba(126, 232, 255, .14);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, .34), inset 0 1px 0 rgba(255, 255, 255, .04);
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
+  background: linear-gradient(145deg, rgba(12, 22, 31, .52), rgba(5, 11, 17, .34));
+  border: 1px solid rgba(255, 211, 122, .16);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, .18), inset 0 1px 0 rgba(255, 255, 255, .06);
+  backdrop-filter: blur(20px) saturate(120%);
+  -webkit-backdrop-filter: blur(20px) saturate(120%);
 }
 .mass-page .mass-immersive .mass-card {
   position: absolute;
@@ -339,10 +339,10 @@
   right: 0;
   bottom: 0;
   padding: 12px 34px 14px;
-  border-top: 1px solid rgba(255, 211, 122, .14);
-  background: linear-gradient(180deg, rgba(4, 8, 12, .18), rgba(5, 10, 15, .88) 38%, rgba(4, 7, 11, .96));
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
+  border-top: 1px solid rgba(255, 211, 122, .18);
+  background: linear-gradient(180deg, rgba(4, 8, 12, .08), rgba(5, 10, 15, .54) 38%, rgba(4, 7, 11, .72));
+  backdrop-filter: blur(20px) saturate(120%);
+  -webkit-backdrop-filter: blur(20px) saturate(120%);
 }
 .mass-page .mass-immersive .console-head {
   display: flex;
@@ -493,6 +493,7 @@
     min-height: 560px;
   }
   .mass-page .mass-immersive .mass-intro { width: 150px; }
+  .mass-page .mass-immersive .mass-depth { display: none; }
   .mass-page .mass-immersive .mass-intro h1 { font-size: 20px; }
   .mass-page .mass-immersive .mass-card { top: 64px; right: 10px; width: 182px; padding: 11px; }
   .mass-page .mass-immersive .card-top { margin-bottom: 8px; }

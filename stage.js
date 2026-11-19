@@ -2,6 +2,9 @@ import * as THREE from 'three';
 import {articleUrl} from '/engine/content/routes.js';
 import { bands } from './ladder-data.js';
 import {currentTheme,watchTheme} from '/engine/renderer/theme.js';
+import {standard} from '/engine/renderer/materials.js';
+import {createSun,createSaturnRing} from '/engine/renderer/astro.js';
+import {createSpaceEnvironment} from '/engine/renderer/studio.js';
 
 const $ = (id) => document.getElementById(id);
 const immersive = document.getElementById('mass-immersive');
@@ -116,7 +119,7 @@ function glowSprite(inner, outer, scale = 1) {
 }
 
 function std(color, options = {}) {
-  return new THREE.MeshStandardMaterial({ color, roughness: 0.34, metalness: 0.22, ...options });
+  return standard(color, { roughness: 0.34, metalness: 0.22, ...options });
 }
 
 function basic(color, opacity = 1, additive = false) {
@@ -127,13 +130,13 @@ function basic(color, opacity = 1, additive = false) {
   });
 }
 
-function sphere(radius, material, width = 24, height = 18) {
+function sphere(radius, material, width = 48, height = 32) {
   return new THREE.Mesh(new THREE.SphereGeometry(radius, width, height), material);
 }
 
-function ring(radius, tube, color, opacity = 0.7, segments = 96) {
+function ring(radius, tube, color, opacity = 0.7, segments = 128) {
   const mesh = new THREE.Mesh(
-    new THREE.TorusGeometry(radius, tube, 8, segments),
+    new THREE.TorusGeometry(radius, tube, 12, segments),
     basic(color, opacity, true)
   );
   return mesh;
@@ -144,7 +147,7 @@ function bond(a, b, radius, material) {
   const end = new THREE.Vector3(...b);
   const direction = end.clone().sub(start);
   const length = direction.length();
-  const mesh = new THREE.Mesh(new THREE.CylinderGeometry(radius, radius, length, 8), material);
+  const mesh = new THREE.Mesh(new THREE.CylinderGeometry(radius, radius, length, 16), material);
   mesh.position.copy(start).add(end).multiplyScalar(0.5);
   mesh.quaternion.setFromUnitVectors(new THREE.Vector3(0, 1, 0), direction.normalize());
   return mesh;
@@ -162,6 +165,24 @@ function seededRandom(seed) {
   };
 }
 
+const REAL_PLANET_MAPS = {
+  'mass.earth': 'earth-day.jpg', 'mass.jupiter': 'jupiter.jpg', 'mass.saturn': 'saturn.jpg',
+  'mass.moon': 'moon.jpg', 'mass.mercury': 'planets/2k_mercury.jpg', 'mass.venus': 'planets/2k_venus_surface.jpg',
+  'mass.mars': 'planets/2k_mars.jpg', 'mass.uranus': 'planets/2k_uranus.jpg', 'mass.neptune': 'planets/2k_neptune.jpg',
+  'mass.sun': 'sun.jpg'
+};
+const mapCache = new Map();
+function realPlanetMap(id) {
+  const file = REAL_PLANET_MAPS[id];
+  if (!file) return null;
+  if (!mapCache.has(file)) {
+    const texture = new THREE.TextureLoader().load('https://static.chidu.org/media/' + file);
+    texture.colorSpace = THREE.SRGBColorSpace;
+    texture.anisotropy = 8;
+    mapCache.set(file, texture);
+  }
+  return mapCache.get(file);
+}
 function planetTexture(entry) {
   const canvas = document.createElement('canvas');
   canvas.width = 512;
@@ -403,76 +424,104 @@ function buildObject(entry, archetype) {
     group.add(glowSprite('rgba(255,220,150,.45)', 'rgba(140,90,30,.12)', 1.1));
   } else if (archetype === 'planet') {
     const colors = ID_PLANET_COLOR[entry.id] || { base: '#78909a', land: '#b5c4ca', atmosphere: 0x9fc7d0 };
-    const texture = entry.id === 'mass.earth' ? new THREE.TextureLoader().load('https://static.chidu.org/media/earth-day.jpg') : planetTexture(entry);
-    const planet = sphere(0.82, new THREE.MeshStandardMaterial({ map: texture, roughness: 0.68, metalness: 0.04 }), 48, 32);
+    const map = realPlanetMap(entry.id) || planetTexture(entry);
+    const planet = sphere(0.82, new THREE.MeshStandardMaterial({
+      map, color: 0xffffff, roughness: 0.7, metalness: 0.02,
+      bumpMap: entry.id === 'mass.earth' || entry.id === 'mass.moon' ? map : null,
+      bumpScale: entry.id === 'mass.moon' ? .01 : .002, envMapIntensity: .65
+    }), 96, 64);
     group.add(planet);
-    const atmosphere = sphere(0.91, new THREE.MeshBasicMaterial({ color: colors.atmosphere, transparent: true, opacity: 0.16, side: THREE.BackSide, blending: THREE.AdditiveBlending, depthWrite: false }), 32, 24);
+    const atmosphere = sphere(0.9, new THREE.MeshBasicMaterial({ color: colors.atmosphere, transparent: true, opacity: 0.14, side: THREE.BackSide, blending: THREE.AdditiveBlending, depthWrite: false }), 48, 32);
     group.add(atmosphere);
     if (entry.id === 'mass.saturn') {
-      const rings = new THREE.Mesh(new THREE.RingGeometry(1.05, 1.72, 96), new THREE.MeshBasicMaterial({ color: 0xe4c88e, transparent: true, opacity: 0.42, side: THREE.DoubleSide, blending: THREE.AdditiveBlending, depthWrite: false }));
-      rings.rotation.x = Math.PI / 2;
-      rings.rotation.z = -0.28;
+      if (!mapCache.has('saturn-ring.png')) {
+        const t = new THREE.TextureLoader().load('https://static.chidu.org/media/saturn-ring.png');
+        t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 8;
+        mapCache.set('saturn-ring.png', t);
+      }
+      const rings = createSaturnRing(() => mapCache.get('saturn-ring.png'), { inner: 1.08, outer: 1.95 });
+      rings.scale.setScalar(0.9);
       group.add(rings);
     }
     if (entry.id === 'mass.earth') {
-      const moon = sphere(0.09, std(0xc9d4d8, { roughness: 0.8 }));
+      const moon = sphere(0.09, new THREE.MeshStandardMaterial({ map: realPlanetMap('mass.moon'), roughness: 0.9 }), 32, 24);
       moon.position.set(1.15, 0.22, 0.15);
       group.add(moon);
     }
     group.add(glowSprite('rgba(150,220,255,.5)', 'rgba(30,80,140,.16)', 2.1));
   } else if (archetype === 'star') {
-    const core = sphere(0.64, new THREE.MeshBasicMaterial({ color: 0xffe7a3 }));
+    const core = createSun({ radius: 0.64, hot: '#ffc45a', cool: '#d33a00', intensity: 1.05, detail: 1.1, map: realPlanetMap('mass.sun'), tint: '#fff2d8' });
     group.add(core);
-    const halo = glowSprite('rgba(255,250,210,.95)', 'rgba(255,130,40,.42)', 2.7);
-    group.add(halo);
+    group.add(glowSprite('rgba(255,250,210,.95)', 'rgba(255,130,40,.42)', 2.7));
     const corona = new THREE.Points(
       new THREE.BufferGeometry().setAttribute('position', new THREE.BufferAttribute(new Float32Array(
-        Array.from({ length: 600 }, () => {
+        Array.from({ length: 900 }, () => {
           const r = 0.72 + Math.random() * 0.8;
           const phi = Math.acos(1 - 2 * Math.random());
           const theta = Math.random() * Math.PI * 2;
           return [r * Math.sin(phi) * Math.cos(theta), r * Math.cos(phi), r * Math.sin(phi) * Math.sin(theta)];
         }).flat()
       ), 3)),
-      new THREE.PointsMaterial({ color: 0xffc96b, size: 0.035, transparent: true, opacity: 0.8, blending: THREE.AdditiveBlending, depthWrite: false })
+      new THREE.PointsMaterial({ map: makeGlowTexture('rgba(255,220,150,1)', 'rgba(255,140,40,.35)'), color: 0xffc96b, size: 0.09, transparent: true, opacity: 0.75, blending: THREE.AdditiveBlending, depthWrite: false })
     );
     group.add(corona);
+    group.userData.star = core;
   } else if (archetype === 'blackhole') {
-    const core = sphere(0.4, new THREE.MeshBasicMaterial({ color: 0x000000 }));
+    const core = sphere(0.4, basic(0x000000));
     group.add(core);
-    const disk = new THREE.Mesh(new THREE.RingGeometry(0.55, 1.55, 96), new THREE.MeshBasicMaterial({ color: 0xff9a4a, transparent: true, opacity: 0.55, side: THREE.DoubleSide, blending: THREE.AdditiveBlending, depthWrite: false }));
-    disk.rotation.x = Math.PI / 2;
-    disk.rotation.z = 0.2;
+    // 吸积盘：内热外冷、带湍流亮纹的环面，比纯色圆环更接近真实黑洞图像。
+    const diskMaterial = new THREE.ShaderMaterial({
+      transparent: true, depthWrite: false, side: THREE.DoubleSide, blending: THREE.AdditiveBlending,
+      uniforms: { time: { value: 0 } },
+      vertexShader: 'varying vec2 vUv; void main(){ vUv = uv; gl_Position = projectionMatrix*modelViewMatrix*vec4(position,1.0); }',
+      fragmentShader: `
+        uniform float time; varying vec2 vUv;
+        float hash(float n){ return fract(sin(n)*43758.5453); }
+        float noise(float x){ float i=floor(x), f=fract(x); f=f*f*(3.0-2.0*f); return mix(hash(i),hash(i+1.0),f); }
+        void main(){
+          float r = vUv.x; // 0 内缘 → 1 外缘
+          float band = 0.55 + 0.45*sin(r*38.0 + time*0.6);
+          float grain = noise(r*120.0 + time*1.2)*0.5 + noise(r*240.0 - time*0.8)*0.5;
+          vec3 inner = vec3(1.0,0.92,0.72), outer = vec3(0.95,0.28,0.06);
+          vec3 color = mix(inner, outer, smoothstep(0.0,1.0,r)) * (0.55 + 0.75*grain) * band;
+          float alpha = smoothstep(0.0,0.12,r) * (1.0-smoothstep(0.82,1.0,r)) * 0.9;
+          gl_FragColor = vec4(color*1.6, alpha);
+          #include <tonemapping_fragment>
+          #include <colorspace_fragment>
+        }`
+    });
+    const disk = new THREE.Mesh(new THREE.RingGeometry(0.52, 1.62, 160, 24), diskMaterial);
+    disk.rotation.x = Math.PI / 2; disk.rotation.z = 0.2;
     group.add(disk);
-    const inner = new THREE.Mesh(new THREE.RingGeometry(0.42, 0.55, 64), new THREE.MeshBasicMaterial({ color: 0xffe2a4, transparent: true, opacity: 0.8, side: THREE.DoubleSide, blending: THREE.AdditiveBlending, depthWrite: false }));
-    inner.rotation.x = Math.PI / 2;
-    group.add(inner);
-    const lens = ring(0.8, 0.02, 0xffd37a, 0.88);
-    lens.rotation.x = 1.1;
-    lens.rotation.y = 0.2;
+    const photon = ring(0.44, 0.012, 0xffe6b0, 0.95);
+    photon.rotation.x = 1.42; photon.rotation.y = 0.2;
+    group.add(photon);
+    const lens = ring(0.82, 0.02, 0xffd37a, 0.7);
+    lens.rotation.x = 1.1; lens.rotation.y = 0.2;
     group.add(lens);
     group.add(glowSprite('rgba(255,170,80,.8)', 'rgba(160,40,20,.25)', 2.4));
     group.userData.disk = disk;
+    group.userData.diskMaterial = diskMaterial;
   } else if (archetype === 'galaxy') {
     const random = seededRandom(entry.id);
-    const count = 1200;
+    const count = 2600;
     const positions = new Float32Array(count * 3);
     const colors = new Float32Array(count * 3);
     for (let i = 0; i < count; i++) {
       const arm = i % 3;
-      const radius = 0.16 + random() * 1.15;
-      const theta = radius * 4.2 + arm * Math.PI * 2 / 3 + random() * 0.2;
+      const radius = 0.10 + Math.pow(random(), .8) * 1.25;
+      const theta = radius * 4.4 + arm * Math.PI * 2 / 3 + (random() - 0.5) * 0.35;
       positions[i * 3] = Math.cos(theta) * radius;
-      positions[i * 3 + 1] = (random() - 0.5) * 0.12;
+      positions[i * 3 + 1] = (random() - 0.5) * 0.10;
       positions[i * 3 + 2] = Math.sin(theta) * radius;
       const tint = Math.random();
-      colors[i * 3] = 0.66 + tint * 0.2;
-      colors[i * 3 + 1] = 0.76 + tint * 0.18;
-      colors[i * 3 + 2] = 0.95;
+      colors[i * 3] = 0.70 + tint * 0.25;
+      colors[i * 3 + 1] = 0.74 + tint * 0.2;
+      colors[i * 3 + 2] = 0.92 + tint * 0.08;
     }
     const galaxy = new THREE.Points(
       new THREE.BufferGeometry().setAttribute('position', new THREE.BufferAttribute(positions, 3)).setAttribute('color', new THREE.BufferAttribute(colors, 3)),
-      new THREE.PointsMaterial({ size: 0.045, vertexColors: true, transparent: true, opacity: 0.9, blending: THREE.AdditiveBlending, depthWrite: false })
+      new THREE.PointsMaterial({ map: makeGlowTexture('rgba(255,255,255,1)', 'rgba(255,255,255,.35)'), size: 0.075, vertexColors: true, transparent: true, opacity: 0.9, blending: THREE.AdditiveBlending, depthWrite: false })
     );
     group.add(galaxy);
     const core = sphere(0.12, basic(0xffe9b5, 0.9, true));
@@ -552,9 +601,14 @@ function initScene() {
 
   scene = new THREE.Scene();
   scene.fog = new THREE.FogExp2(0x04070b, 0.028);
+  try {
+    const environment = createSpaceEnvironment(renderer);
+    scene.environment = environment.texture;
+    scene.environmentIntensity = 0.55;
+  } catch (error) { console.warn('深空反射环境不可用', error); }
   const width = host.clientWidth || window.innerWidth;
   camera = new THREE.PerspectiveCamera(42, width / (host.clientHeight || window.innerHeight), 0.1, 100);
-  camera.position.set(width < 700 ? 1.1 : 0.72, 0.18, 9.4);
+  camera.position.set(width < 700 ? 0.95 : 0.6, 0.16, width < 700 ? 8.2 : 7.2);
   camera.lookAt(0, 0, 0);
 
   world = new THREE.Group();
@@ -1092,7 +1146,7 @@ function onResize() {
   const height = host.clientHeight || window.innerHeight;
   renderer.setSize(width, height);
   camera.aspect = width / height;
-  camera.position.x = width < 700 ? 1.1 : 0.72;
+  camera.position.x = width < 700 ? 0.95 : 0.6;
   camera.updateProjectionMatrix();
 }
 
@@ -1114,7 +1168,9 @@ function animate(now) {
     objectGroup.scale.y = objectGroup.scale.z = objectGroup.scale.x;
     if (Math.abs(objectGroup.scale.x - target) < 0.002) objectGroup.scale.setScalar(target);
     if (!reducedMotion && objectGroup.userData.disk) objectGroup.userData.disk.rotation.z += 0.006;
+    if (!reducedMotion && objectGroup.userData.diskMaterial) objectGroup.userData.diskMaterial.uniforms.time.value = now * 0.001;
     if (!reducedMotion && objectGroup.userData.galaxy) objectGroup.userData.galaxy.rotation.y += 0.003;
+    if (!reducedMotion && objectGroup.userData.star) objectGroup.userData.star.userData.update?.(delta, now * 0.001);
   }
   objectGlow.material.opacity = reducedMotion ? 0.34 : 0.34 + Math.sin(now * 0.001) * 0.06;
   if (!reducedMotion) {
