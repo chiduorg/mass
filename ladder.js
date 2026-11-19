@@ -168,8 +168,9 @@ function render(entries) {
       : `当前为空壳：0 条质量条目，16 个覆盖带、${decadeCount} 个十进位已就位，锚点按 M1–M6 分批补入。`;
     summary.textContent = text;
     summary.dataset.en = total
-      ? `${total} mass entries in the library (${laddable.length} on the ladder, ${special.length} zero-mass cases); ${covered.size} of ${decadeCount} decades covered; ${populatedBands} of 16 bands populated.`
+      ? `${total} mass entries in the library (${laddable.length} on the ladder, ${special.length} zero-mass ${special.length === 1 ? 'case' : 'cases'}); ${covered.size} of ${decadeCount} decades covered; ${populatedBands} of 16 bands populated.`
       : `Empty scaffold: 0 mass entries; 16 bands and ${decadeCount} decades are ready, with anchors arriving in batches M1–M6.`;
+    if (document.documentElement.dataset.lang === 'en') summary.textContent = summary.dataset.en;
   }
 }
 
