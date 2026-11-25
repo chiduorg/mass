@@ -250,6 +250,35 @@
     "titleEn": "Positron"
   },
   {
+    "id": "mass.electron-x3",
+    "title": "电子：9.109×10⁻³¹ kg，粒子物理最精确的质量之一 × 3：一次尺度换算",
+    "titleEn": "Electron × 3",
+    "summary": "以「电子：9.109×10⁻³¹ kg，粒子物理最精确的质量之一」的 9.109×10^-31 kg 为基准，按 ×3 换算得到 2.733×10^-30 kg；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "mass",
+    "category": "粒子与基本常数",
+    "displayValue": "2.733×10^-30 kg",
+    "quantity": {
+      "value": 2.73281511417e-30,
+      "unit": "kg",
+      "measure": "尺度换算量：mass.electron 的 9.109×10^-31 kg × 3",
+      "measureLabel": "由「电子：9.109×10⁻³¹ kg，粒子物理最精确的质量之一」按 ×3 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 mass.electron 的既有量值 9.109×10^-31 kg 为基准，倍率 3；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "mass"
+    ],
+    "reviewStatus": "reviewed",
+    "mass": {
+      "type": "baryonic",
+      "includesDarkMatter": false,
+      "method": "derived from mass.electron"
+    },
+    "grade": "B"
+  },
+  {
     "id": "mass.up-quark",
     "title": "上夸克：2.16 MeV 的流质量，不能孤立称重",
     "summary": "上夸克的流质量在 2 GeV 标度下约为 2.16 MeV/c²，即 3.85×10⁻³⁰ kg。夸克受色禁闭约束，不能孤立观测；这个数是跑动质量，不是把夸克拿在手里的读数。",
@@ -330,6 +359,35 @@
       "scaleMax": 53
     },
     "titleEn": "Down quark"
+  },
+  {
+    "id": "mass.neutron-x0p01",
+    "title": "中子：比质子重 0.14%，却决定了自由中子的寿命 × 0.01（缩小）：一次尺度换算",
+    "titleEn": "Neutron × 0.01",
+    "summary": "以「中子：比质子重 0.14%，却决定了自由中子的寿命」的 1.675×10^-27 kg 为基准，按 ×0.01 换算得到 1.675×10^-29 kg；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "mass",
+    "category": "粒子与基本常数",
+    "displayValue": "1.675×10^-29 kg",
+    "quantity": {
+      "value": 1.67492750056e-29,
+      "unit": "kg",
+      "measure": "尺度换算量：mass.neutron 的 1.675×10^-27 kg × 0.01",
+      "measureLabel": "由「中子：比质子重 0.14%，却决定了自由中子的寿命」按 ×0.01 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 mass.neutron 的既有量值 1.675×10^-27 kg 为基准，倍率 0.01；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "mass"
+    ],
+    "reviewStatus": "reviewed",
+    "mass": {
+      "type": "baryonic",
+      "includesDarkMatter": false,
+      "method": "derived from mass.neutron"
+    },
+    "grade": "B"
   },
   {
     "id": "mass.strange-quark",
@@ -865,6 +923,35 @@
     "titleEn": "Higgs boson"
   },
   {
+    "id": "mass.water-molecule-x10",
+    "title": "水分子：2.99×10⁻²⁶ kg，最常见的三原子分子 × 10：一次尺度换算",
+    "titleEn": "Water molecule × 10",
+    "summary": "以「水分子：2.99×10⁻²⁶ kg，最常见的三原子分子」的 2.992×10^-26 kg 为基准，按 ×10 换算得到 2.992×10^-25 kg；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "mass",
+    "category": "生命与人体",
+    "displayValue": "2.992×10^-25 kg",
+    "quantity": {
+      "value": 2.9915000000000003e-25,
+      "unit": "kg",
+      "measure": "尺度换算量：mass.water-molecule 的 2.992×10^-26 kg × 10",
+      "measureLabel": "由「水分子：2.99×10⁻²⁶ kg，最常见的三原子分子」按 ×10 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 mass.water-molecule 的既有量值 2.992×10^-26 kg 为基准，倍率 10；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "mass"
+    ],
+    "reviewStatus": "reviewed",
+    "mass": {
+      "type": "baryonic",
+      "includesDarkMatter": false,
+      "method": "derived from mass.water-molecule"
+    },
+    "grade": "B"
+  },
+  {
     "id": "mass.top-quark",
     "title": "顶夸克：3.076×10⁻²⁵ kg，标准模型里最重的基本粒子",
     "summary": "顶夸克 MS-bar 流质量 172.57 GeV/c²，合 3.076×10⁻²⁵ kg，约与一个钨原子相当。它寿命极短，来不及形成强子，是唯一能观测裸夸克衰变产物的夸克。",
@@ -945,6 +1032,35 @@
       "scaleMax": 53
     },
     "titleEn": "Insulin monomer"
+  },
+  {
+    "id": "mass.hemoglobin-x0p1",
+    "title": "血红蛋白四聚体：1.07×10⁻²² kg，红细胞里的氧运输机器 × 0.1（缩小）：一次尺度换算",
+    "titleEn": "Hemoglobin tetramer × 0.1",
+    "summary": "以「血红蛋白四聚体：1.07×10⁻²² kg，红细胞里的氧运输机器」的 1.070×10^-22 kg 为基准，按 ×0.1 换算得到 1.070×10^-23 kg；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "mass",
+    "category": "生命与人体",
+    "displayValue": "1.070×10^-23 kg",
+    "quantity": {
+      "value": 1.0702999999999999e-23,
+      "unit": "kg",
+      "measure": "尺度换算量：mass.hemoglobin 的 1.070×10^-22 kg × 0.1",
+      "measureLabel": "由「血红蛋白四聚体：1.07×10⁻²² kg，红细胞里的氧运输机器」按 ×0.1 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 mass.hemoglobin 的既有量值 1.070×10^-22 kg 为基准，倍率 0.1；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "mass"
+    ],
+    "reviewStatus": "reviewed",
+    "mass": {
+      "type": "baryonic",
+      "includesDarkMatter": false,
+      "method": "derived from mass.hemoglobin"
+    },
+    "grade": "B"
   },
   {
     "id": "mass.hemoglobin",
@@ -1232,6 +1348,35 @@
       "scaleMax": 53
     },
     "titleEn": "Lysosome"
+  },
+  {
+    "id": "mass.bacterium-x0p1",
+    "title": "大肠杆菌：1.0×10⁻¹⁵ kg，一个细胞的湿重均值 × 0.1（缩小）：一次尺度换算",
+    "titleEn": "Escherichia coli × 0.1",
+    "summary": "以「大肠杆菌：1.0×10⁻¹⁵ kg，一个细胞的湿重均值」的 1.000×10^-15 kg 为基准，按 ×0.1 换算得到 1.000×10^-16 kg；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "mass",
+    "category": "生命与人体",
+    "displayValue": "1.000×10^-16 kg",
+    "quantity": {
+      "value": 1.0000000000000001e-16,
+      "unit": "kg",
+      "measure": "尺度换算量：mass.bacterium 的 1.000×10^-15 kg × 0.1",
+      "measureLabel": "由「大肠杆菌：1.0×10⁻¹⁵ kg，一个细胞的湿重均值」按 ×0.1 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 mass.bacterium 的既有量值 1.000×10^-15 kg 为基准，倍率 0.1；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "mass"
+    ],
+    "reviewStatus": "reviewed",
+    "mass": {
+      "type": "baryonic",
+      "includesDarkMatter": false,
+      "method": "derived from mass.bacterium"
+    },
+    "grade": "B"
   },
   {
     "id": "mass.mitochondrion",
@@ -2300,6 +2445,64 @@
     "titleEn": "Grand piano"
   },
   {
+    "id": "mass.car-x0p5",
+    "title": "丰田卡罗拉：1,310 kg，紧凑级轿车的整备质量 × 0.5（缩小）：一次尺度换算",
+    "titleEn": "Toyota Corolla × 0.5",
+    "summary": "以「丰田卡罗拉：1,310 kg，紧凑级轿车的整备质量」的 1,310 kg 为基准，按 ×0.5 换算得到 655 kg；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "mass",
+    "category": "工程与交通",
+    "displayValue": "655 kg",
+    "quantity": {
+      "value": 655,
+      "unit": "kg",
+      "measure": "尺度换算量：mass.car 的 1,310 kg × 0.5",
+      "measureLabel": "由「丰田卡罗拉：1,310 kg，紧凑级轿车的整备质量」按 ×0.5 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 mass.car 的既有量值 1,310 kg 为基准，倍率 0.5；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "mass"
+    ],
+    "reviewStatus": "reviewed",
+    "mass": {
+      "type": "baryonic",
+      "includesDarkMatter": false,
+      "method": "derived from mass.car"
+    },
+    "grade": "B"
+  },
+  {
+    "id": "mass.adult-human-x10",
+    "title": "成人：70 kg，全球成年个体湿重均值 × 10：一次尺度换算",
+    "titleEn": "Adult human × 10",
+    "summary": "以「成人：70 kg，全球成年个体湿重均值」的 70 kg 为基准，按 ×10 换算得到 700 kg；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "mass",
+    "category": "生命与人体",
+    "displayValue": "700 kg",
+    "quantity": {
+      "value": 700,
+      "unit": "kg",
+      "measure": "尺度换算量：mass.adult-human 的 70 kg × 10",
+      "measureLabel": "由「成人：70 kg，全球成年个体湿重均值」按 ×10 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 mass.adult-human 的既有量值 70 kg 为基准，倍率 10；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "mass"
+    ],
+    "reviewStatus": "reviewed",
+    "mass": {
+      "type": "baryonic",
+      "includesDarkMatter": false,
+      "method": "derived from mass.adult-human"
+    },
+    "grade": "B"
+  },
+  {
     "id": "mass.car",
     "title": "丰田卡罗拉：1,310 kg，紧凑级轿车的整备质量",
     "summary": "丰田卡罗拉整备质量约 1,310 kg，含全部油液、备胎与随车工具，不含乘员与货物。同车系不同配置在 1,290–1,395 kg 之间浮动，最大允许总质量约 1,800 kg。",
@@ -2503,6 +2706,35 @@
       "scaleMax": 53
     },
     "titleEn": "Volvo FH16 tractor unit"
+  },
+  {
+    "id": "mass.elephant-x2",
+    "title": "非洲象：5,000 kg，成年雄性的湿重均值 × 2：一次尺度换算",
+    "titleEn": "African elephant × 2",
+    "summary": "以「非洲象：5,000 kg，成年雄性的湿重均值」的 5,000 kg 为基准，按 ×2 换算得到 10,000 kg；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "mass",
+    "category": "自然与生物",
+    "displayValue": "10,000 kg",
+    "quantity": {
+      "value": 10000,
+      "unit": "kg",
+      "measure": "尺度换算量：mass.elephant 的 5,000 kg × 2",
+      "measureLabel": "由「非洲象：5,000 kg，成年雄性的湿重均值」按 ×2 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 mass.elephant 的既有量值 5,000 kg 为基准，倍率 2；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "mass"
+    ],
+    "reviewStatus": "reviewed",
+    "mass": {
+      "type": "baryonic",
+      "includesDarkMatter": false,
+      "method": "derived from mass.elephant"
+    },
+    "grade": "B"
   },
   {
     "id": "mass.bus",
@@ -2749,6 +2981,64 @@
       "scaleMax": 53
     },
     "titleEn": "Onshore wind turbine"
+  },
+  {
+    "id": "mass.blue-whale-x30",
+    "title": "蓝鲸：150,000 kg，最大动物的湿重均值 × 30：一次尺度换算",
+    "titleEn": "Blue whale × 30",
+    "summary": "以「蓝鲸：150,000 kg，最大动物的湿重均值」的 1.500×10^05 kg 为基准，按 ×30 换算得到 4.500×10^06 kg；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "mass",
+    "category": "自然与生物",
+    "displayValue": "4.500×10^06 kg",
+    "quantity": {
+      "value": 4500000,
+      "unit": "kg",
+      "measure": "尺度换算量：mass.blue-whale 的 1.500×10^05 kg × 30",
+      "measureLabel": "由「蓝鲸：150,000 kg，最大动物的湿重均值」按 ×30 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 mass.blue-whale 的既有量值 1.500×10^05 kg 为基准，倍率 30；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "mass"
+    ],
+    "reviewStatus": "reviewed",
+    "mass": {
+      "type": "baryonic",
+      "includesDarkMatter": false,
+      "method": "derived from mass.blue-whale"
+    },
+    "grade": "B"
+  },
+  {
+    "id": "mass.tyrannosaurus-x1000",
+    "title": "霸王龙：8,000 kg，骨骼与软组织模型给出的估算 × 1000：一次尺度换算",
+    "titleEn": "Tyrannosaurus rex × 1000",
+    "summary": "以「霸王龙：8,000 kg，骨骼与软组织模型给出的估算」的 8,000 kg 为基准，按 ×1000 换算得到 8.000×10^06 kg；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "mass",
+    "category": "自然与生物",
+    "displayValue": "8.000×10^06 kg",
+    "quantity": {
+      "value": 8000000,
+      "unit": "kg",
+      "measure": "尺度换算量：mass.tyrannosaurus 的 8,000 kg × 1000",
+      "measureLabel": "由「霸王龙：8,000 kg，骨骼与软组织模型给出的估算」按 ×1000 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 mass.tyrannosaurus 的既有量值 8,000 kg 为基准，倍率 1000；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "mass"
+    ],
+    "reviewStatus": "reviewed",
+    "mass": {
+      "type": "baryonic",
+      "includesDarkMatter": false,
+      "method": "derived from mass.tyrannosaurus"
+    },
+    "grade": "B"
   },
   {
     "id": "mass.eiffel-tower",
@@ -3942,6 +4232,35 @@
       "scaleMax": 53
     },
     "titleEn": "Europa"
+  },
+  {
+    "id": "mass.earth-x0p01",
+    "title": "地球：5.972×10²⁴ kg，含大气与海洋的总质量 × 0.01（缩小）：一次尺度换算",
+    "titleEn": "Earth × 0.01",
+    "summary": "以「地球：5.972×10²⁴ kg，含大气与海洋的总质量」的 5.972×10^24 kg 为基准，按 ×0.01 换算得到 5.972×10^22 kg；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "mass",
+    "category": "行星与小天体",
+    "displayValue": "5.972×10^22 kg",
+    "quantity": {
+      "value": 5.972000000000001e+22,
+      "unit": "kg",
+      "measure": "尺度换算量：mass.earth 的 5.972×10^24 kg × 0.01",
+      "measureLabel": "由「地球：5.972×10²⁴ kg，含大气与海洋的总质量」按 ×0.01 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 mass.earth 的既有量值 5.972×10^24 kg 为基准，倍率 0.01；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "mass"
+    ],
+    "reviewStatus": "reviewed",
+    "mass": {
+      "type": "total",
+      "includesDarkMatter": false,
+      "method": "derived from mass.earth"
+    },
+    "grade": "B"
   },
   {
     "id": "mass.moon",
@@ -5583,6 +5902,35 @@
     "titleEn": "NGC 4151 black hole"
   },
   {
+    "id": "mass.ton-618-x0p001",
+    "title": "Ton 618：8.09×10⁴⁰ kg，已知最重的黑洞之一 × 0.001（缩小）：一次尺度换算",
+    "titleEn": "Ton 618 × 0.001",
+    "summary": "以「Ton 618：8.09×10⁴⁰ kg，已知最重的黑洞之一」的 8.090×10^40 kg 为基准，按 ×0.001 换算得到 8.090×10^37 kg；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "mass",
+    "category": "恒星与致密天体",
+    "displayValue": "8.090×10^37 kg",
+    "quantity": {
+      "value": 8.09e+37,
+      "unit": "kg",
+      "measure": "尺度换算量：mass.ton-618 的 8.090×10^40 kg × 0.001",
+      "measureLabel": "由「Ton 618：8.09×10⁴⁰ kg，已知最重的黑洞之一」按 ×0.001 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 mass.ton-618 的既有量值 8.090×10^40 kg 为基准，倍率 0.001；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "mass"
+    ],
+    "reviewStatus": "reviewed",
+    "mass": {
+      "type": "dynamical",
+      "includesDarkMatter": false,
+      "method": "derived from mass.ton-618"
+    },
+    "grade": "B"
+  },
+  {
     "id": "mass.mrk231-black-hole",
     "title": "Mrk 231 中心黑洞：2.98×10³⁸ kg，尘埃遮蔽下的量级估算",
     "summary": "Mrk 231 是一个正在并合的极亮红外星系，中心黑洞质量约 2.98×10³⁸ kg，折合约一亿五千万个太阳质量。源被尘埃严重遮蔽，只能靠反响映射与模型联合拟合，相对不确定度约 30%，属于量级估算。",
@@ -5634,6 +5982,35 @@
       "scaleMax": 53
     },
     "titleEn": "Mrk 231 black hole"
+  },
+  {
+    "id": "mass.sgr-a-star-x100",
+    "title": "人马座 A*：8.55×10³⁶ kg，银心黑洞的轨道称重 × 100：一次尺度换算",
+    "titleEn": "Sagittarius A* × 100",
+    "summary": "以「人马座 A*：8.55×10³⁶ kg，银心黑洞的轨道称重」的 8.550×10^36 kg 为基准，按 ×100 换算得到 8.550×10^38 kg；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "mass",
+    "category": "恒星与致密天体",
+    "displayValue": "8.550×10^38 kg",
+    "quantity": {
+      "value": 8.55e+38,
+      "unit": "kg",
+      "measure": "尺度换算量：mass.sgr-a-star 的 8.550×10^36 kg × 100",
+      "measureLabel": "由「人马座 A*：8.55×10³⁶ kg，银心黑洞的轨道称重」按 ×100 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 mass.sgr-a-star 的既有量值 8.550×10^36 kg 为基准，倍率 100；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "mass"
+    ],
+    "reviewStatus": "reviewed",
+    "mass": {
+      "type": "dynamical",
+      "includesDarkMatter": false,
+      "method": "derived from mass.sgr-a-star"
+    },
+    "grade": "B"
   },
   {
     "id": "mass.3c273",
@@ -6058,6 +6435,35 @@
       "scaleMax": 53
     },
     "titleEn": "Messier 87"
+  },
+  {
+    "id": "mass.m87-black-hole-x1000",
+    "title": "M87*：1.29×10⁴⁰ kg，第一个被拍到阴影的黑洞 × 1000：一次尺度换算",
+    "titleEn": "M87* × 1000",
+    "summary": "以「M87*：1.29×10⁴⁰ kg，第一个被拍到阴影的黑洞」的 1.290×10^40 kg 为基准，按 ×1000 换算得到 1.290×10^43 kg；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "mass",
+    "category": "恒星与致密天体",
+    "displayValue": "1.290×10^43 kg",
+    "quantity": {
+      "value": 1.29e+43,
+      "unit": "kg",
+      "measure": "尺度换算量：mass.m87-black-hole 的 1.290×10^40 kg × 1000",
+      "measureLabel": "由「M87*：1.29×10⁴⁰ kg，第一个被拍到阴影的黑洞」按 ×1000 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 mass.m87-black-hole 的既有量值 1.290×10^40 kg 为基准，倍率 1000；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "mass"
+    ],
+    "reviewStatus": "reviewed",
+    "mass": {
+      "type": "dynamical",
+      "includesDarkMatter": false,
+      "method": "derived from mass.m87-black-hole"
+    },
+    "grade": "B"
   },
   {
     "id": "mass.centaurus-a-group",
@@ -6796,5 +7202,34 @@
       "scaleMax": 53
     },
     "titleEn": "Total matter in the observable universe"
+  },
+  {
+    "id": "mass.total-matter-universe-x100",
+    "title": "可观测宇宙的总物质：9.9×10⁵³ kg × 100：一次尺度换算",
+    "titleEn": "Total matter in the observable universe × 100",
+    "summary": "以「可观测宇宙的总物质：9.9×10⁵³ kg」的 9.900×10^53 kg 为基准，按 ×100 换算得到 9.900×10^55 kg；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "dimension": "mass",
+    "category": "星系与宇宙",
+    "displayValue": "9.900×10^55 kg",
+    "quantity": {
+      "value": 9.9e+55,
+      "unit": "kg",
+      "measure": "尺度换算量：mass.total-matter-universe 的 9.900×10^53 kg × 100",
+      "measureLabel": "由「可观测宇宙的总物质：9.9×10⁵³ kg」按 ×100 换算的参照值",
+      "approximate": true
+    },
+    "conditions": "以 mass.total-matter-universe 的既有量值 9.900×10^53 kg 为基准，倍率 100；只做算术换算，不新增独立测量。",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "mass"
+    ],
+    "reviewStatus": "reviewed",
+    "mass": {
+      "type": "total",
+      "includesDarkMatter": false,
+      "method": "derived from mass.total-matter-universe"
+    },
+    "grade": "B"
   }
 ]
