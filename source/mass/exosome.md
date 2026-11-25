@@ -5,7 +5,7 @@ summary: >-
   外泌体直径约 30–150 nm，单个颗粒湿重均值约 2.0×10⁻¹⁹ kg，对应约 70 nm
   的等效球。粒径跨五倍，质量按体积三次方缩放，同批样品可差两个量级以上。
 dimension: mass
-category: 细胞器
+category: 生命与人体
 displayValue: 2.0×10⁻¹⁹ kg
 quantity:
   value: 2.e-19
@@ -70,6 +70,7 @@ visual:
   color: '#b7a6ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Exosome
 ---
 ## 这个读数是什么
 

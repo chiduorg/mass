@@ -5,7 +5,7 @@ summary: >-
   T4 噬菌体头部约 90×120 nm，尾部长约 100 nm。单个颗粒湿重均值约 3.0×10⁻¹⁹ kg，文献常引的 2.5×10⁸ Da 是 DNA
   加蛋白的名义干重口径。
 dimension: mass
-category: 病毒
+category: 生命与人体
 displayValue: 3.0×10⁻¹⁹ kg
 quantity:
   value: 3.e-19
@@ -71,6 +71,7 @@ visual:
   color: '#b7a6ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: T4 bacteriophage
 ---
 ## 这个读数是什么
 

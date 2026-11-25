@@ -5,7 +5,7 @@ summary: >-
   水星是离太阳最近的行星，总质量约 3.301×10²³ kg，约为地球的十八分之一。它没有卫星，质量只能靠 MESSENGER
   的轨道跟踪反演，相对不确定度约 0.1%。
 dimension: mass
-category: 行星
+category: 行星与小天体
 displayValue: 3.301×10²³ kg
 quantity:
   value: 3.301e+23
@@ -80,6 +80,7 @@ visual:
   color: '#8fc9d8'
   scaleMin: -40
   scaleMax: 53
+titleEn: Mercury
 ---
 ## 这个读数是什么
 

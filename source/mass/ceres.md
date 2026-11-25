@@ -3,7 +3,7 @@ id: mass.ceres
 title: 谷神星：9.383×10²⁰ kg，主带之王也是一颗矮行星
 summary: 谷神星是小行星带质量最大的天体，也是唯一位于主带的矮行星，总质量约 9.383×10²⁰ kg。Dawn 探测器环绕跟踪给出的相对不确定度约 1%。
 dimension: mass
-category: 矮行星
+category: 行星与小天体
 displayValue: 9.383×10²⁰ kg
 quantity:
   value: 938300000000000000000
@@ -78,6 +78,7 @@ visual:
   color: '#8fc9d8'
   scaleMin: -40
   scaleMax: 53
+titleEn: Ceres
 ---
 ## 这个读数是什么
 

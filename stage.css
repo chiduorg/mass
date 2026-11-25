@@ -431,11 +431,11 @@
   .mass-page .mass-immersive .mass-intro { left: 16px; top: 66px; width: 180px; }
   .mass-page .mass-immersive .mass-intro h1 { margin: 9px 0 0; font-size: 22px; }
   .mass-page .mass-immersive .mass-lede { display: none; }
-  .mass-page .mass-immersive .mass-rail { display: flex; left: 5px; top: 174px; bottom: 174px; width: 16px; overflow: visible; flex-direction: column; }
+  .mass-page .mass-immersive .mass-rail { display: flex; left: 0; top: 174px; bottom: 174px; width: 40px; overflow: visible; flex-direction: column; }
   .mass-page .mass-immersive .mass-rail::before {
     content: "";
     position: absolute;
-    left: 7px;
+    left: 19px;
     top: 2px;
     bottom: 2px;
     width: 1px;
@@ -459,7 +459,7 @@
     content: "";
     width: 5px;
     height: 5px;
-    margin-left: 5px;
+    margin-left: 17px;
     border: 1px solid rgba(255, 211, 122, .3);
     border-radius: 50%;
     background: rgba(4, 7, 11, .7);
@@ -469,7 +469,7 @@
   .mass-page .mass-immersive .band-row.active::before {
     width: 7px;
     height: 7px;
-    margin-left: 4px;
+    margin-left: 16px;
     border-color: var(--gold);
     background: var(--gold);
     box-shadow: 0 0 10px rgba(255, 211, 122, .7);

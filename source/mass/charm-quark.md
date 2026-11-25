@@ -4,7 +4,7 @@ title: 粲夸克：1.27 GeV 的流质量，跨过强子质量的门槛
 summary: 粲夸克的流质量约为 1.27 GeV/c²，即 2.264×10⁻²⁷ kg。它比质子还重，含粲夸克的强子因此必须通过弱作用衰变，寿命远短于奇异粒子。
 dimension: mass
 grade: A
-category: 基本粒子
+category: 粒子与基本常数
 displayValue: ≈ 2.264×10⁻²⁷ kg（流质量 1.27 GeV）
 quantity:
   value: 2.264e-27
@@ -69,6 +69,7 @@ visual:
   color: '#8dd5ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Charm quark
 ---
 ## 这个读数是什么
 

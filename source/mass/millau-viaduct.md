@@ -5,7 +5,7 @@ summary: >-
   米约高架桥按设计方公布的材料量估算，结构总质量约 2.9×10⁸ kg；其中钢桥面约 36,000 t，其余为混凝土桥墩、桥台与基础。常被误写成“钢结构
   29 万吨”，实际 29 万吨是整座结构的估算总重。
 dimension: mass
-category: 桥梁
+category: 工程与交通
 displayValue: 2.9×10⁸ kg
 quantity:
   value: 290000000
@@ -50,6 +50,10 @@ sources:
     url: 'https://www.unesco.org/'
     publisher: UNESCO
     accessed: '2026-11-09'
+  - title: 'SI base unit: kilogram (kg)'
+    url: 'https://www.bipm.org/en/si-base-units/kilogram'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 tags:
   - 质量
   - 高架桥
@@ -76,6 +80,7 @@ visual:
   color: '#d8b46a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Millau Viaduct
 ---
 ## 这个读数是什么
 
@@ -96,3 +101,5 @@ visual:
 ## 怎么继续走
 
 想比较另一座悬索桥的总质量口径，去 mass.golden-gate-bridge；想看更早的锻铁结构，去 mass.eiffel-tower；想看混凝土建筑的质量估算，去 mass.burj-khalifa；想理解桥梁用钢，从 elements.fe 进入元素轴。
+
+本条的质量单位与换算依据 BIPM 对千克的定义。[3]

@@ -5,7 +5,7 @@ summary: >-
   灶神星是主带第二大的小行星，总质量约 2.590×10²⁰ kg。Dawn 探测器环绕时的无线电跟踪把相对不确定度压到约
   1%，是少数由航天器近距离测定质量的小行星。
 dimension: mass
-category: 小行星
+category: 行星与小天体
 displayValue: 2.590×10²⁰ kg
 quantity:
   value: 259000000000000000000
@@ -80,6 +80,7 @@ visual:
   color: '#8fc9d8'
   scaleMin: -40
   scaleMax: 53
+titleEn: Vesta
 ---
 ## 这个读数是什么
 

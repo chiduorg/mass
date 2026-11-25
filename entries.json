@@ -5,7 +5,7 @@
     "summary": "标准模型给光子的静质量为零；实验只给出约 10⁻⁶³ kg 的上限。零质量粒子没有对数刻度位置，因此本条单独成条，不进入 16 个覆盖带。",
     "dimension": "mass",
     "grade": "C",
-    "category": "基本粒子",
+    "category": "粒子与基本常数",
     "displayValue": "静质量 0 · 实验上限约 10⁻⁶³ kg",
     "quantity": {
       "value": 0,
@@ -38,7 +38,8 @@
       "color": "#e8f0e6",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Photon"
   },
   {
     "id": "mass.neutrino-2",
@@ -46,7 +47,7 @@
     "summary": "ν₂ 的绝对质量仍未知。太阳中微子振荡把 Δm²21 定到 7.53×10⁻⁵ eV²；在最轻态趋近于零的假设下，ν₂ 的质量下限约为 0.0087 eV，即 1.55×10⁻³⁸ kg。",
     "dimension": "mass",
     "grade": "C",
-    "category": "基本粒子",
+    "category": "粒子与基本常数",
     "displayValue": "≥ 1.55×10⁻³⁸ kg（约 8.7×10⁻³ eV，下限）",
     "quantity": {
       "value": 1.55e-38,
@@ -79,7 +80,8 @@
       "color": "#7fe8ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Neutrino mass eigenstate ν₂"
   },
   {
     "id": "mass.neutrino-3",
@@ -87,7 +89,7 @@
     "summary": "ν₃ 与较轻两态的间距由 |Δm²31| ≈ 2.45×10⁻³ eV² 控制。在最轻态趋近于零时，ν₃ 至少约 0.0495 eV，即 8.8×10⁻³⁸ kg；它究竟是不是最重态，取决于尚未确定的质量序。",
     "dimension": "mass",
     "grade": "C",
-    "category": "基本粒子",
+    "category": "粒子与基本常数",
     "displayValue": "≥ 8.8×10⁻³⁸ kg（约 0.0495 eV，下限）",
     "quantity": {
       "value": 8.8e-38,
@@ -120,7 +122,8 @@
       "color": "#7fe8ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Neutrino mass eigenstate ν₃"
   },
   {
     "id": "mass.neutrino-1",
@@ -128,7 +131,7 @@
     "summary": "ν₁ 是三个质量本征态里最轻的一个。振荡实验只能定出质量平方差，绝对值缺失；宇宙学总和约束给出约 0.05 eV、即 8.9×10⁻³⁸ kg 的上限。",
     "dimension": "mass",
     "grade": "C",
-    "category": "基本粒子",
+    "category": "粒子与基本常数",
     "displayValue": "≤ 8.9×10⁻³⁸ kg（约 0.05 eV，上限）",
     "quantity": {
       "value": 8.9e-38,
@@ -161,7 +164,8 @@
       "color": "#7fe8ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Neutrino mass eigenstate ν₁"
   },
   {
     "id": "mass.electron",
@@ -169,7 +173,7 @@
     "summary": "电子的静质量由 Penning 阱与原子反冲测量共同锁定，CODATA 2022 给出 9.1093837139×10⁻³¹ kg，相对不确定度约 3×10⁻¹⁰。",
     "dimension": "mass",
     "grade": "A",
-    "category": "基本粒子",
+    "category": "粒子与基本常数",
     "displayValue": "9.109×10⁻³¹ kg",
     "quantity": {
       "value": 9.1093837139e-31,
@@ -201,7 +205,8 @@
       "color": "#7fe8ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Electron"
   },
   {
     "id": "mass.positron",
@@ -209,7 +214,7 @@
     "summary": "正电子是电子的反粒子，静质量与电子在实验精度内相等，CODATA 2022 给出 9.1093837139×10⁻³¹ kg。质量相等是 CPT 对称性的直接检验。",
     "dimension": "mass",
     "grade": "A",
-    "category": "基本粒子",
+    "category": "粒子与基本常数",
     "displayValue": "9.109×10⁻³¹ kg",
     "quantity": {
       "value": 9.1093837139e-31,
@@ -241,7 +246,8 @@
       "color": "#7fe8ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Positron"
   },
   {
     "id": "mass.up-quark",
@@ -249,7 +255,7 @@
     "summary": "上夸克的流质量在 2 GeV 标度下约为 2.16 MeV/c²，即 3.85×10⁻³⁰ kg。夸克受色禁闭约束，不能孤立观测；这个数是跑动质量，不是把夸克拿在手里的读数。",
     "dimension": "mass",
     "grade": "A",
-    "category": "基本粒子",
+    "category": "粒子与基本常数",
     "displayValue": "≈ 3.85×10⁻³⁰ kg（流质量 2.16 MeV）",
     "quantity": {
       "value": 3.85e-30,
@@ -281,7 +287,8 @@
       "color": "#8dd5ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Up quark"
   },
   {
     "id": "mass.down-quark",
@@ -289,7 +296,7 @@
     "summary": "下夸克的流质量在 2 GeV 标度下约为 4.67 MeV/c²，即 8.33×10⁻³⁰ kg。它比上夸克重，这个差值经强相互作用放大后，使中子比质子重约 1.29 MeV。",
     "dimension": "mass",
     "grade": "A",
-    "category": "基本粒子",
+    "category": "粒子与基本常数",
     "displayValue": "≈ 8.33×10⁻³⁰ kg（流质量 4.67 MeV）",
     "quantity": {
       "value": 8.33e-30,
@@ -321,7 +328,8 @@
       "color": "#8dd5ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Down quark"
   },
   {
     "id": "mass.strange-quark",
@@ -329,7 +337,7 @@
     "summary": "奇异夸克的流质量在 2 GeV 标度下约为 93.4 MeV/c²，即 1.665×10⁻²⁸ kg。它比上、下夸克重一个数量级以上，却仍轻到能在中子星与强子物理中扮演角色。",
     "dimension": "mass",
     "grade": "A",
-    "category": "基本粒子",
+    "category": "粒子与基本常数",
     "displayValue": "≈ 1.665×10⁻²⁸ kg（流质量 93.4 MeV）",
     "quantity": {
       "value": 1.665e-28,
@@ -361,7 +369,8 @@
       "color": "#8dd5ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Strange quark"
   },
   {
     "id": "mass.muon",
@@ -369,7 +378,7 @@
     "summary": "μ 子是第二代带电轻子，静质量 1.883531627×10⁻²⁸ kg，约 105.66 MeV/c²。它比电子重 206.8 倍，却与电子共享同一套弱作用与电磁作用。",
     "dimension": "mass",
     "grade": "A",
-    "category": "基本粒子",
+    "category": "粒子与基本常数",
     "displayValue": "1.884×10⁻²⁸ kg",
     "quantity": {
       "value": 1.883531627e-28,
@@ -401,7 +410,8 @@
       "color": "#8dd5ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Muon"
   },
   {
     "id": "mass.proton",
@@ -409,7 +419,7 @@
     "summary": "质子静质量 1.67262192595×10⁻²⁷ kg，约 938.272 MeV/c²。三个价夸克的流质量之和不到质子质量的 1%，其余来自胶子场与夸克动能。",
     "dimension": "mass",
     "grade": "A",
-    "category": "强子",
+    "category": "粒子与基本常数",
     "displayValue": "1.673×10⁻²⁷ kg",
     "quantity": {
       "value": 1.67262192595e-27,
@@ -441,7 +451,8 @@
       "color": "#8dd5ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Proton"
   },
   {
     "id": "mass.hydrogen-atom",
@@ -449,7 +460,7 @@
     "summary": "中性氢原子（¹H）的基态质量约 1.67353×10⁻²⁷ kg，即 1.007825 u。它比质子加电子之和少约 13.6 eV/c²，这个差值就是氢的电离能对应的质量亏损。",
     "dimension": "mass",
     "grade": "A",
-    "category": "原子",
+    "category": "生命与人体",
     "displayValue": "1.6735×10⁻²⁷ kg",
     "quantity": {
       "value": 1.67353e-27,
@@ -481,7 +492,8 @@
       "color": "#8dd5ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Hydrogen atom"
   },
   {
     "id": "mass.neutron",
@@ -489,7 +501,7 @@
     "summary": "中子静质量 1.67492750056×10⁻²⁷ kg，约 939.565 MeV/c²。它与质子的质量差约 1.293 MeV，足以让自由中子通过 β 衰变变成质子、电子与反中微子。",
     "dimension": "mass",
     "grade": "A",
-    "category": "强子",
+    "category": "粒子与基本常数",
     "displayValue": "1.675×10⁻²⁷ kg",
     "quantity": {
       "value": 1.67492750056e-27,
@@ -521,7 +533,8 @@
       "color": "#8dd5ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Neutron"
   },
   {
     "id": "mass.charm-quark",
@@ -529,7 +542,7 @@
     "summary": "粲夸克的流质量约为 1.27 GeV/c²，即 2.264×10⁻²⁷ kg。它比质子还重，含粲夸克的强子因此必须通过弱作用衰变，寿命远短于奇异粒子。",
     "dimension": "mass",
     "grade": "A",
-    "category": "基本粒子",
+    "category": "粒子与基本常数",
     "displayValue": "≈ 2.264×10⁻²⁷ kg（流质量 1.27 GeV）",
     "quantity": {
       "value": 2.264e-27,
@@ -561,7 +574,8 @@
       "color": "#8dd5ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Charm quark"
   },
   {
     "id": "mass.tau",
@@ -569,7 +583,7 @@
     "summary": "τ 子是第三代带电轻子，静质量 3.16754×10⁻²⁷ kg，约 1776.86 MeV/c²。它比质子重近两倍，寿命却只有 2.9×10⁻¹³ 秒。",
     "dimension": "mass",
     "grade": "A",
-    "category": "基本粒子",
+    "category": "粒子与基本常数",
     "displayValue": "3.168×10⁻²⁷ kg",
     "quantity": {
       "value": 3.16754e-27,
@@ -601,7 +615,8 @@
       "color": "#8dd5ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Tau lepton"
   },
   {
     "id": "mass.helium-nucleus",
@@ -609,7 +624,7 @@
     "summary": "氦-4 原子核（α 粒子）质量约 6.644657×10⁻²⁷ kg，即 4.001506 u。它比两个质子加两个中子之和轻约 28.3 MeV/c²，这个亏损就是核聚变放能的来源。",
     "dimension": "mass",
     "grade": "A",
-    "category": "原子核",
+    "category": "生命与人体",
     "displayValue": "6.645×10⁻²⁷ kg",
     "quantity": {
       "value": 6.644657e-27,
@@ -641,7 +656,8 @@
       "color": "#8dd5ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Helium nucleus"
   },
   {
     "id": "mass.bottom-quark",
@@ -649,7 +665,7 @@
     "summary": "底夸克的流质量约为 4.18 GeV/c²，即 7.452×10⁻²⁷ kg。它比粲夸克重三倍多，是 B 介子、CP 破坏与希格斯衰变研究的关键质量参数。",
     "dimension": "mass",
     "grade": "A",
-    "category": "基本粒子",
+    "category": "粒子与基本常数",
     "displayValue": "≈ 7.452×10⁻²⁷ kg（流质量 4.18 GeV）",
     "quantity": {
       "value": 7.452e-27,
@@ -681,14 +697,15 @@
       "color": "#8dd5ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Bottom quark"
   },
   {
     "id": "mass.water-molecule",
     "title": "水分子：2.99×10⁻²⁶ kg，最常见的三原子分子",
     "summary": "一个水分子由两个氢原子和一个氧原子组成，分子质量 18.0153 u，合 2.9915×10⁻²⁶ kg。它的质量略小于三个孤立原子之和，差额就是分子结合能。",
     "dimension": "mass",
-    "category": "分子",
+    "category": "生命与人体",
     "displayValue": "2.99×10⁻²⁶ kg（18.0153 u）",
     "quantity": {
       "value": 2.9915e-26,
@@ -721,14 +738,15 @@
       "color": "#9cc8ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Water molecule"
   },
   {
     "id": "mass.w-boson",
     "title": "W 玻色子：1.433×10⁻²⁵ kg，弱作用的带电载体",
     "summary": "W± 玻色子静质量 80.3692 GeV/c²，合 1.433×10⁻²⁵ kg。它是弱相互作用的中介粒子，寿命约 3×10⁻²⁵ 秒；它的质量与 Z 玻色子的差异，正是弱中性流与带电流强度不同的来源。",
     "dimension": "mass",
-    "category": "规范玻色子",
+    "category": "粒子与基本常数",
     "displayValue": "1.433×10⁻²⁵ kg（80.3692 GeV/c²）",
     "quantity": {
       "value": 1.433e-25,
@@ -761,14 +779,15 @@
       "color": "#9cc8ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "W boson"
   },
   {
     "id": "mass.z-boson",
     "title": "Z 玻色子：1.626×10⁻²⁵ kg，弱中性流的载体",
     "summary": "Z 玻色子静质量 91.1876 GeV/c²，合 1.6255×10⁻²⁵ kg，是电弱理论里最精确的读数之一。它的衰变线型在 LEP 上被逐点扫描，由此定出中微子只有三代。",
     "dimension": "mass",
-    "category": "规范玻色子",
+    "category": "粒子与基本常数",
     "displayValue": "1.626×10⁻²⁵ kg（91.1876 GeV/c²）",
     "quantity": {
       "value": 1.6255e-25,
@@ -801,14 +820,15 @@
       "color": "#9cc8ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Z boson"
   },
   {
     "id": "mass.higgs-boson",
     "title": "希格斯玻色子：2.232×10⁻²⁵ kg，唯一的基本标量粒子",
     "summary": "希格斯玻色子静质量 125.20 GeV/c²，合 2.2319×10⁻²⁵ kg。它是标准模型里唯一自旋为零的基本粒子，2012 年在 LHC 上被发现；它的质量不由任何对称性预言，只能测量。",
     "dimension": "mass",
-    "category": "基本粒子",
+    "category": "粒子与基本常数",
     "displayValue": "2.232×10⁻²⁵ kg（125.20 GeV/c²）",
     "quantity": {
       "value": 2.2319e-25,
@@ -841,14 +861,15 @@
       "color": "#9cc8ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Higgs boson"
   },
   {
     "id": "mass.top-quark",
     "title": "顶夸克：3.076×10⁻²⁵ kg，标准模型里最重的基本粒子",
     "summary": "顶夸克 MS-bar 流质量 172.57 GeV/c²，合 3.076×10⁻²⁵ kg，约与一个钨原子相当。它寿命极短，来不及形成强子，是唯一能观测裸夸克衰变产物的夸克。",
     "dimension": "mass",
-    "category": "基本粒子",
+    "category": "粒子与基本常数",
     "displayValue": "3.076×10⁻²⁵ kg（MS-bar 流质量）",
     "quantity": {
       "value": 3.076e-25,
@@ -881,14 +902,15 @@
       "color": "#9cc8ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Top quark"
   },
   {
     "id": "mass.insulin",
     "title": "胰岛素单体：9.64×10⁻²⁴ kg，51 个氨基酸的小蛋白",
     "summary": "人胰岛素单体由 A 链 21 个、B 链 30 个氨基酸组成，共 51 个残基，分子质量约 5808 Da，合 9.644×10⁻²⁴ kg。它在胰腺中储存为含锌六聚体，进入血液后以单体起作用。",
     "dimension": "mass",
-    "category": "蛋白质",
+    "category": "生命与人体",
     "displayValue": "9.64×10⁻²⁴ kg（5808 Da）",
     "quantity": {
       "value": 9.644e-24,
@@ -921,14 +943,15 @@
       "color": "#9cc8ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Insulin monomer"
   },
   {
     "id": "mass.hemoglobin",
     "title": "血红蛋白四聚体：1.07×10⁻²² kg，红细胞里的氧运输机器",
     "summary": "成人血红蛋白 HbA 是 α₂β₂ 四聚体，含四条珠蛋白链与四个血红素，总质量约 64,458 Da，合 1.0703×10⁻²² kg。每个红细胞里约有 2.7 亿个这样的分子。",
     "dimension": "mass",
-    "category": "蛋白质",
+    "category": "生命与人体",
     "displayValue": "1.07×10⁻²² kg（64,458 Da）",
     "quantity": {
       "value": 1.0703e-22,
@@ -961,14 +984,15 @@
       "color": "#9cc8ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Hemoglobin tetramer"
   },
   {
     "id": "mass.ribosome",
     "title": "大肠杆菌 70S 核糖体：4.2×10⁻²¹ kg，蛋白质合成的工厂",
     "summary": "大肠杆菌 70S 核糖体由 30S 与 50S 两个亚基组成，含三条 rRNA 与约 54 种蛋白，总质量约 2.5 MDa，合 4.15×10⁻²¹ kg。这个值由冷冻电镜结构、沉降系数与质谱共同推导。",
     "dimension": "mass",
-    "category": "分子机器",
+    "category": "生命与人体",
     "displayValue": "4.2×10⁻²¹ kg（约 2.5 MDa）",
     "quantity": {
       "value": 4.15e-21,
@@ -1001,14 +1025,15 @@
       "color": "#9cc8ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "E. coli 70S ribosome"
   },
   {
     "id": "mass.synaptic-vesicle",
     "title": "突触囊泡：3.0×10⁻²⁰ kg，一个神经递质包裹",
     "summary": "突触囊泡直径约 40 nm，单个囊泡湿重均值约 3.0×10⁻²⁰ kg，约合 1.8×10⁷ Da。数值由粒径分布与 1.1 g/cm³ 的湿密度估算，随囊泡大小与递质装载量变化。",
     "dimension": "mass",
-    "category": "细胞器",
+    "category": "生命与人体",
     "displayValue": "3.0×10⁻²⁰ kg",
     "quantity": {
       "value": 3e-20,
@@ -1041,14 +1066,15 @@
       "color": "#b7a6ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Synaptic vesicle"
   },
   {
     "id": "mass.exosome",
     "title": "外泌体：2.0×10⁻¹⁹ kg，细胞外囊泡的中位颗粒",
     "summary": "外泌体直径约 30–150 nm，单个颗粒湿重均值约 2.0×10⁻¹⁹ kg，对应约 70 nm 的等效球。粒径跨五倍，质量按体积三次方缩放，同批样品可差两个量级以上。",
     "dimension": "mass",
-    "category": "细胞器",
+    "category": "生命与人体",
     "displayValue": "2.0×10⁻¹⁹ kg",
     "quantity": {
       "value": 2e-19,
@@ -1081,14 +1107,15 @@
       "color": "#b7a6ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Exosome"
   },
   {
     "id": "mass.bacteriophage-t4",
     "title": "T4 噬菌体：3.0×10⁻¹⁹ kg，DNA 与蛋白的注射器",
     "summary": "T4 噬菌体头部约 90×120 nm，尾部长约 100 nm。单个颗粒湿重均值约 3.0×10⁻¹⁹ kg，文献常引的 2.5×10⁸ Da 是 DNA 加蛋白的名义干重口径。",
     "dimension": "mass",
-    "category": "病毒",
+    "category": "生命与人体",
     "displayValue": "3.0×10⁻¹⁹ kg",
     "quantity": {
       "value": 3e-19,
@@ -1121,14 +1148,15 @@
       "color": "#b7a6ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "T4 bacteriophage"
   },
   {
     "id": "mass.influenza-virion",
     "title": "流感病毒颗粒：1.6×10⁻¹⁸ kg，多形包膜病毒的湿重",
     "summary": "流感病毒是有包膜的负链 RNA 病毒，包膜直径约 100 nm，也常见拉长的丝状颗粒。单个颗粒湿重均值约 1.6×10⁻¹⁸ kg，按等效球直径约 140 nm 与 1.1 g/cm³ 密度估算。",
     "dimension": "mass",
-    "category": "病毒",
+    "category": "生命与人体",
     "displayValue": "1.6×10⁻¹⁸ kg",
     "quantity": {
       "value": 1.6e-18,
@@ -1161,14 +1189,15 @@
       "color": "#b7a6ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Influenza virion"
   },
   {
     "id": "mass.lysosome",
     "title": "溶酶体：7.7×10⁻¹⁷ kg，细胞里的酸性降解车间",
     "summary": "溶酶体是动物细胞的酸性膜性细胞器，直径约 0.2–0.8 µm，常见 0.5 µm。单个溶酶体湿重均值约 7.7×10⁻¹⁷ kg，由等效球体积与 1.1 g/cm³ 密度估算。",
     "dimension": "mass",
-    "category": "细胞器",
+    "category": "生命与人体",
     "displayValue": "7.7×10⁻¹⁷ kg",
     "quantity": {
       "value": 7.7e-17,
@@ -1201,14 +1230,15 @@
       "color": "#b7a6ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Lysosome"
   },
   {
     "id": "mass.mitochondrion",
     "title": "线粒体：2.0×10⁻¹⁶ kg，肝细胞里的能量细胞器",
     "summary": "肝细胞线粒体常呈长约 1 µm、直径约 0.5 µm 的短棒状。单个线粒体湿重均值约 2.0×10⁻¹⁶ kg，由圆柱等效体积与 1.1 g/cm³ 密度估算，随融合分裂状态变化。",
     "dimension": "mass",
-    "category": "细胞器",
+    "category": "生命与人体",
     "displayValue": "2.0×10⁻¹⁶ kg",
     "quantity": {
       "value": 2e-16,
@@ -1241,14 +1271,15 @@
       "color": "#b7a6ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Mitochondrion"
   },
   {
     "id": "mass.bacterium",
     "title": "大肠杆菌：1.0×10⁻¹⁵ kg，一个细胞的湿重均值",
     "summary": "单个大肠杆菌的湿重均值约 1.0×10⁻¹⁵ kg（1 pg），干重约为湿重的 20–30%。由细胞体积约 1 立方微米与接近水的密度估算，样本间差异约 ±30%。",
     "dimension": "mass",
-    "category": "单细胞生物",
+    "category": "生命与人体",
     "displayValue": "1.0×10⁻¹⁵ kg",
     "quantity": {
       "value": 1e-15,
@@ -1281,14 +1312,15 @@
       "color": "#b48cff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Escherichia coli"
   },
   {
     "id": "mass.sperm-cell",
     "title": "人类精子细胞：2.0×10⁻¹⁴ kg，大部分质量是水",
     "summary": "单个成熟人类精子细胞的湿重均值约 2.0×10⁻¹⁴ kg（20 pg），干重约为湿重的 20–30%。它由头部与鞭毛组成，单倍体基因组 DNA 只占约 3.3 pg，其余主要是水与蛋白质。",
     "dimension": "mass",
-    "category": "生殖细胞",
+    "category": "生命与人体",
     "displayValue": "2.0×10⁻¹⁴ kg",
     "quantity": {
       "value": 2e-14,
@@ -1321,14 +1353,15 @@
       "color": "#b48cff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Human sperm cell"
   },
   {
     "id": "mass.red-blood-cell",
     "title": "人类红细胞：1.0×10⁻¹³ kg，约九成体积是水",
     "summary": "单个成熟人类红细胞的湿重均值约 1.0×10⁻¹³ kg（100 pg），干重约占三分之一，其中血红蛋白约 30 pg。由约 90 飞升的细胞体积与约 1.1 g/cm³ 的密度估算，不确定度约 ±15%。",
     "dimension": "mass",
-    "category": "血细胞",
+    "category": "生命与人体",
     "displayValue": "1.0×10⁻¹³ kg",
     "quantity": {
       "value": 1e-13,
@@ -1361,14 +1394,15 @@
       "color": "#b48cff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Human red blood cell"
   },
   {
     "id": "mass.neuron",
     "title": "人类神经元：1.0×10⁻¹² kg，一个锥体细胞的湿重均值估计",
     "summary": "以大脑皮层锥体细胞为代表，一个人类神经元的湿重均值估计约 1.0×10⁻¹² kg（1 ng），不确定度可达一个量级。胞体与树突、轴突的体积很难完整测量，条目只能给量级，不给精确值。",
     "dimension": "mass",
-    "category": "神经细胞",
+    "category": "生命与人体",
     "displayValue": "1.0×10⁻¹² kg",
     "quantity": {
       "value": 1e-12,
@@ -1401,14 +1435,15 @@
       "color": "#b48cff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Human neuron"
   },
   {
     "id": "mass.human-cell",
     "title": "人体细胞：2.0×10⁻¹² kg，以 HeLa 细胞为代表的湿重均值",
     "summary": "以 HeLa 细胞为代表，一个培养的人体细胞湿重均值约 2.0×10⁻¹² kg（2 ng），干重约为湿重的 20–30%。不同细胞类型差异很大，条目取 ±50% 的区间，不把它当作所有人体细胞的统一值。",
     "dimension": "mass",
-    "category": "人体细胞",
+    "category": "生命与人体",
     "displayValue": "2.0×10⁻¹² kg",
     "quantity": {
       "value": 2e-12,
@@ -1441,14 +1476,15 @@
       "color": "#b48cff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Human cell"
   },
   {
     "id": "mass.cardiac-muscle-cell",
     "title": "心肌细胞：2.0×10⁻¹¹ kg，约 20 纳克",
     "summary": "单个心室心肌细胞的湿重均值约 2.0×10⁻¹¹ kg（20 ng），干重约为湿重的 20–30%。细胞呈长柱状，长度约一百微米，由体积与密度估算，肥大与个体差异使不确定度达 ±50%。",
     "dimension": "mass",
-    "category": "肌细胞",
+    "category": "生命与人体",
     "displayValue": "2.0×10⁻¹¹ kg",
     "quantity": {
       "value": 2e-11,
@@ -1481,14 +1517,15 @@
       "color": "#b48cff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Cardiac muscle cell"
   },
   {
     "id": "mass.egg-cell",
     "title": "人类卵细胞：9.0×10⁻¹⁰ kg，人体最大的细胞",
     "summary": "单个成熟人类卵母细胞（不含透明带与放射冠）的湿重均值约 9.0×10⁻¹⁰ kg（0.9 µg），直径约 120 µm。干重约为湿重的 20–30%，个体与成熟阶段差异使不确定度约 ±20%。",
     "dimension": "mass",
-    "category": "生殖细胞",
+    "category": "生命与人体",
     "displayValue": "9.0×10⁻¹⁰ kg",
     "quantity": {
       "value": 9e-10,
@@ -1521,14 +1558,15 @@
       "color": "#b48cff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Human egg cell"
   },
   {
     "id": "mass.planck-mass",
     "title": "普朗克质量：2.176×10⁻⁸ kg，由三个常数拼出的质量锚点",
     "summary": "普朗克质量 m_P = √(ħc/G) ≈ 2.176434×10⁻⁸ kg，由 CODATA 2022 的约化普朗克常数、光速与引力常数组合得出。它不是某个粒子的实测质量，而是量子引力效应变得不可忽略的质量标尺。",
     "dimension": "mass",
-    "category": "物理常数",
+    "category": "粒子与基本常数",
     "displayValue": "2.176×10⁻⁸ kg",
     "quantity": {
       "value": 2.176434e-8,
@@ -1561,14 +1599,15 @@
       "color": "#c9a77a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Planck mass"
   },
   {
     "id": "mass.sand-grain",
     "title": "0.5 毫米石英砂粒：1.7×10⁻⁷ kg，几何与密度的估算",
     "summary": "取直径 0.5 mm 的石英球体，半径 0.25 mm、密度 2650 kg/m³，体积约 6.5×10⁻¹¹ m³，质量约 1.7×10⁻⁷ kg。真实砂粒有棱角、矿物混杂，这个读数只能算估算。",
     "dimension": "mass",
-    "category": "矿物颗粒",
+    "category": "自然与生物",
     "displayValue": "1.7×10⁻⁷ kg",
     "quantity": {
       "value": 1.7e-7,
@@ -1601,14 +1640,15 @@
       "color": "#c9a77a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Quartz sand grain"
   },
   {
     "id": "mass.mosquito",
     "title": "成年雌蚊：约 2.5×10⁻⁶ kg，单个成体的湿重均值",
     "summary": "以常见蚊种为样本，单个成年雌蚊在未吸血状态下的湿重均值约 2.5×10⁻⁶ kg（约 2.5 mg），样本间差异约 ±40%。吸血后短时间内的体重可以翻数倍。",
     "dimension": "mass",
-    "category": "昆虫",
+    "category": "自然与生物",
     "displayValue": "约 2.5×10⁻⁶ kg",
     "quantity": {
       "value": 0.0000025,
@@ -1641,14 +1681,15 @@
       "color": "#c9a77a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Adult female mosquito"
   },
   {
     "id": "mass.rain-drop",
     "title": "直径约 4.6 毫米的雨滴：5.0×10⁻⁵ kg，接近破碎上限的大滴",
     "summary": "取直径 4.6 mm 的雨滴按球体计算：半径 2.3 mm，体积约 5.1×10⁻⁸ m³，乘以水密度得到约 5.0×10⁻⁵ kg（50 mg）。这已接近雨滴的破碎上限，普通雨滴要小得多。",
     "dimension": "mass",
-    "category": "气象液滴",
+    "category": "自然与生物",
     "displayValue": "5.0×10⁻⁵ kg",
     "quantity": {
       "value": 0.00005,
@@ -1681,14 +1722,15 @@
       "color": "#c9a77a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Large raindrop"
   },
   {
     "id": "mass.tea-leaf",
     "title": "一片干茶叶：约 5×10⁻⁵ kg，单叶干重的均值",
     "summary": "一片成品干茶叶的单叶干重均值约 5×10⁻⁵ kg（50 mg），常见区间 0.02–0.08 g。芽头与小叶种偏轻，成熟叶偏重；条索卷得再紧也不改变干重。",
     "dimension": "mass",
-    "category": "植物叶片",
+    "category": "自然与生物",
     "displayValue": "约 5×10⁻⁵ kg",
     "quantity": {
       "value": 0.00005,
@@ -1721,14 +1763,15 @@
       "color": "#c9a77a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Dried tea leaf"
   },
   {
     "id": "mass.paper-clip",
     "title": "标准回形针：约 5×10⁻⁴ kg，单个镀锌钢丝件的净重",
     "summary": "常见的 33 mm 标准回形针由约 0.8 mm 镀锌钢丝弯成，展开长度约 12 cm，按钢密度 7850 kg/m³ 估算约 5×10⁻⁴ kg（0.5 g）。这是单个净重，不含包装。",
     "dimension": "mass",
-    "category": "日常五金",
+    "category": "日常与人造",
     "displayValue": "约 5×10⁻⁴ kg",
     "quantity": {
       "value": 0.0005,
@@ -1761,14 +1804,15 @@
       "color": "#c9a77a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Standard paper clip"
   },
   {
     "id": "mass.tablet",
     "title": "500 mg 对乙酰氨基酚片：约 6×10⁻⁴ kg，单片含辅料的总质量",
     "summary": "标示 500 mg 的对乙酰氨基酚片，“500 mg”是有效成分含量，不是片重。加上填充剂、黏合剂、崩解剂与润滑剂，单片总质量约 6×10⁻⁴ kg（0.6 g）。",
     "dimension": "mass",
-    "category": "药品",
+    "category": "生命与人体",
     "displayValue": "约 6×10⁻⁴ kg",
     "quantity": {
       "value": 0.0006,
@@ -1801,14 +1845,15 @@
       "color": "#c9a77a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Acetaminophen tablet"
   },
   {
     "id": "mass.coin",
     "title": "美国 5 分镍币：5.000×10⁻³ kg，铸币局的法定规格",
     "summary": "美国 5 分镍币的法定质量为 5.000 g，即 5.000×10⁻³ kg；直径 21.21 mm、厚 1.95 mm，成分为 75% 铜、25% 镍。这是单枚净重，由美国铸币局规格规定。",
     "dimension": "mass",
-    "category": "硬币",
+    "category": "日常与人造",
     "displayValue": "5.000×10⁻³ kg",
     "quantity": {
       "value": 0.005,
@@ -1841,14 +1886,15 @@
       "color": "#c9a77a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "US nickel"
   },
   {
     "id": "mass.golf-ball",
     "title": "高尔夫球：4.593×10⁻² kg，规则上限而不是平均值",
     "summary": "比赛用高尔夫球的质量不得超过 45.93 克，即 4.593×10⁻² kg，直径不得小于 42.67 毫米。这是 R&A 与 USGA 共同维护的合规门槛，不是某一颗球的实测值；合规球的质量散布通常不到一克。",
     "dimension": "mass",
-    "category": "日常物品",
+    "category": "日常与人造",
     "displayValue": "4.593×10⁻² kg",
     "quantity": {
       "value": 0.04593,
@@ -1881,14 +1927,15 @@
       "color": "#e0b67b",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Golf ball"
   },
   {
     "id": "mass.human-heart",
     "title": "成人心脏：0.31 kg，湿重均值",
     "summary": "成人心脏约 0.31 kg（310 克），按成年个体均值、湿重计，指摘除后整颗心脏。含血与灌注后称重可差 5–10%，个体与性别差异使不确定度约 ±20%。",
     "dimension": "mass",
-    "category": "人体器官",
+    "category": "生命与人体",
     "displayValue": "0.31 kg",
     "quantity": {
       "value": 0.31,
@@ -1921,14 +1968,15 @@
       "color": "#e0b67b",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Human heart"
   },
   {
     "id": "mass.human-brain",
     "title": "成人脑：1.4 kg，湿重均值",
     "summary": "成人脑约 1.4 kg，按成年个体均值、湿重计，指摘除后的全脑，不含颅骨、硬脑膜与脑脊液。成年男女均值略有差异，个体分布使不确定度约 ±10%。",
     "dimension": "mass",
-    "category": "人体器官",
+    "category": "生命与人体",
     "displayValue": "1.4 kg",
     "quantity": {
       "value": 1.4,
@@ -1961,14 +2009,15 @@
       "color": "#e0b67b",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Human brain"
   },
   {
     "id": "mass.human-liver",
     "title": "成人肝脏：1.5 kg，最重的内脏",
     "summary": "成人肝脏约 1.5 kg，按成年个体均值、湿重计，指整颗摘除后的肝脏。肝脏血供丰富，含血与灌注后称重可差 10–20%，脂肪肝与体型使不确定度约 ±25%。",
     "dimension": "mass",
-    "category": "人体器官",
+    "category": "生命与人体",
     "displayValue": "1.5 kg",
     "quantity": {
       "value": 1.5,
@@ -2001,14 +2050,15 @@
       "color": "#e0b67b",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Human liver"
   },
   {
     "id": "mass.newborn",
     "title": "新生儿：3.3 kg，出生体重均值",
     "summary": "全球足月新生儿的出生体重均值约 3.3 kg，按出生后即刻、脱衣称得的整体湿重计。低于 2.5 kg 为低出生体重，高于 4.0 kg 为巨大儿，不确定度约 ±15%。",
     "dimension": "mass",
-    "category": "人体",
+    "category": "生命与人体",
     "displayValue": "3.3 kg",
     "quantity": {
       "value": 3.3,
@@ -2041,14 +2091,15 @@
       "color": "#e0b67b",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Newborn baby"
   },
   {
     "id": "mass.cat",
     "title": "家猫：4.5 kg，成年家猫湿重均值",
     "summary": "成年家猫的整体质量约 4.5 kg，按活体体重（整体湿重）计。品种与体况差异很大，暹罗约 3–4 kg、缅因可到 6–8 kg，不确定度约 ±30%。",
     "dimension": "mass",
-    "category": "哺乳动物",
+    "category": "自然与生物",
     "displayValue": "4.5 kg",
     "quantity": {
       "value": 4.5,
@@ -2081,14 +2132,15 @@
       "color": "#e0b67b",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Domestic cat"
   },
   {
     "id": "mass.dog",
     "title": "拉布拉多犬：30 kg，成年个体湿重均值",
     "summary": "拉布拉多犬的成年个体质量约 30 kg，按活体体重（整体湿重）计。公犬多在 29–36 kg、母犬多在 25–32 kg，体况差异使不确定度约 ±20%。",
     "dimension": "mass",
-    "category": "哺乳动物",
+    "category": "自然与生物",
     "displayValue": "30 kg",
     "quantity": {
       "value": 30,
@@ -2121,14 +2173,15 @@
       "color": "#e0b67b",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Labrador Retriever"
   },
   {
     "id": "mass.adult-human",
     "title": "成人：70 kg，全球成年个体湿重均值",
     "summary": "成人质量取 70 kg，按全球成年个体均值、湿重（活体体重）计。区域与性别差异明显，部分亚洲人群均值约 55–65 kg，北美偏高，不确定度约 ±20%。",
     "dimension": "mass",
-    "category": "人体",
+    "category": "生命与人体",
     "displayValue": "70 kg",
     "quantity": {
       "value": 70,
@@ -2161,14 +2214,15 @@
       "color": "#e0b67b",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Adult human"
   },
   {
     "id": "mass.motorcycle",
     "title": "摩托车：214 kg，本田 CB750 制造商整备质量",
     "summary": "本田 CB750 的整备质量约 214 kg，取自制造商整车规格：满油、含全部工作液，不含骑手与行李。整备质量不是干重，两者通常差十几到二十千克。",
     "dimension": "mass",
-    "category": "交通工具",
+    "category": "工程与交通",
     "displayValue": "214 kg",
     "quantity": {
       "value": 214,
@@ -2201,14 +2255,15 @@
       "color": "#e0b67b",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Honda CB750"
   },
   {
     "id": "mass.piano",
     "title": "三角钢琴：300 kg，雅马哈 C3 制造商整备质量",
     "summary": "雅马哈 C3 三角钢琴的整备质量约 300 kg，取自制造商型号规格，指可演奏状态的整机，不含琴凳与包装。铸铁板约占整机四成，是承受弦张力的骨架。",
     "dimension": "mass",
-    "category": "乐器",
+    "category": "日常与人造",
     "displayValue": "300 kg",
     "quantity": {
       "value": 300,
@@ -2241,14 +2296,15 @@
       "color": "#e0b67b",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Grand piano"
   },
   {
     "id": "mass.car",
     "title": "丰田卡罗拉：1,310 kg，紧凑级轿车的整备质量",
     "summary": "丰田卡罗拉整备质量约 1,310 kg，含全部油液、备胎与随车工具，不含乘员与货物。同车系不同配置在 1,290–1,395 kg 之间浮动，最大允许总质量约 1,800 kg。",
     "dimension": "mass",
-    "category": "车辆",
+    "category": "工程与交通",
     "displayValue": "1,310 kg",
     "quantity": {
       "value": 1310,
@@ -2281,14 +2337,15 @@
       "color": "#e6c17c",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Toyota Corolla"
   },
   {
     "id": "mass.suv",
     "title": "丰田陆地巡洋舰：2,600 kg，全尺寸越野车的整备质量",
     "summary": "丰田陆地巡洋舰 300 系整备质量约 2,600 kg，非承载式车身、四驱系统与大油箱都计入其中。规格书按配置给出 2,495–2,600 kg，最大允许总质量约 3,000 kg。",
     "dimension": "mass",
-    "category": "车辆",
+    "category": "工程与交通",
     "displayValue": "2,600 kg",
     "quantity": {
       "value": 2600,
@@ -2321,14 +2378,15 @@
       "color": "#e6c17c",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Toyota Land Cruiser"
   },
   {
     "id": "mass.elephant",
     "title": "非洲象：5,000 kg，成年雄性的湿重均值",
     "summary": "非洲象成年雄性湿重约 5,000 kg，给 ±20% 的个体波动。成年雄性常在 4–6 t，雌性约 2.7–3.5 t；肩高约 3.2 m，是现存最大的陆生动物。",
     "dimension": "mass",
-    "category": "动物",
+    "category": "自然与生物",
     "displayValue": "5,000 kg",
     "quantity": {
       "value": 5000,
@@ -2361,14 +2419,15 @@
       "color": "#e6c17c",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "African elephant"
   },
   {
     "id": "mass.tyrannosaurus",
     "title": "霸王龙：8,000 kg，骨骼与软组织模型给出的估算",
     "summary": "霸王龙成年个体质量的主流模型估算约 8,000 kg，合理区间 5–9 t。数值来自骨架三维重建、肌肉复原与组织密度假设，并非实测，标 C 级、approximate。",
     "dimension": "mass",
-    "category": "古生物",
+    "category": "自然与生物",
     "displayValue": "8,000 kg",
     "quantity": {
       "value": 8000,
@@ -2401,14 +2460,15 @@
       "color": "#e6c17c",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Tyrannosaurus rex"
   },
   {
     "id": "mass.truck",
     "title": "沃尔沃 FH16 牵引车：9,000 kg，不含挂车的车头质量",
     "summary": "沃尔沃 FH16 牵引车整备质量约 9,000 kg，指车头本身：底盘、驾驶室、D16 柴油机、变速箱、后桥、鞍座与油液，不含挂车与货物。6×4 长驾驶室配置常在 8.5–9.5 t。",
     "dimension": "mass",
-    "category": "车辆",
+    "category": "工程与交通",
     "displayValue": "9,000 kg",
     "quantity": {
       "value": 9000,
@@ -2441,14 +2501,15 @@
       "color": "#e6c17c",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Volvo FH16 tractor unit"
   },
   {
     "id": "mass.bus",
     "title": "城市公交车：12,000 kg，12 m 级柴油单机的整备质量",
     "summary": "12 m 级柴油城市公交的整备质量约 12,000 kg，含车身、底盘、空调、座椅与全部油液，不含乘客。同长度纯电动车型因电池通常再重 2–3 t，最大允许总质量约 18–19.5 t。",
     "dimension": "mass",
-    "category": "车辆",
+    "category": "工程与交通",
     "displayValue": "12,000 kg",
     "quantity": {
       "value": 12000,
@@ -2481,14 +2542,15 @@
       "color": "#e6c17c",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "City bus"
   },
   {
     "id": "mass.train-car",
     "title": "高铁动车车厢：40,000 kg，单节车厢的整备质量",
     "summary": "高铁动车组单节车厢整备质量约 40,000 kg，含铝合金车体、转向架、牵引与制动设备、空调和座椅，不含乘客。不同车型与头车、动车配置可差到 40–55 t。",
     "dimension": "mass",
-    "category": "轨道车辆",
+    "category": "工程与交通",
     "displayValue": "40,000 kg",
     "quantity": {
       "value": 40000,
@@ -2521,14 +2583,15 @@
       "color": "#e6c17c",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "High-speed rail car"
   },
   {
     "id": "mass.blue-whale",
     "title": "蓝鲸：150,000 kg，最大动物的湿重均值",
     "summary": "蓝鲸成年个体湿重约 150,000 kg，给 ±20% 的波动。实测集中在 100–150 t，个别大型雌性超过 170 t；体长 24–30 m，是已知最大的动物。",
     "dimension": "mass",
-    "category": "动物",
+    "category": "自然与生物",
     "displayValue": "150,000 kg",
     "quantity": {
       "value": 150000,
@@ -2561,14 +2624,15 @@
       "color": "#e6c17c",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Blue whale"
   },
   {
     "id": "mass.airliner",
     "title": "波音 747-8：220,000 kg，空重与最大起飞质量的一半",
     "summary": "波音 747-8 的运行空重约 220,000 kg，含机体、发动机、系统、内饰与不可用燃油，不含载荷与可加燃油。最大起飞质量约 447,700 kg，空重略低于它的一半。",
     "dimension": "mass",
-    "category": "飞行器",
+    "category": "工程与交通",
     "displayValue": "220,000 kg",
     "quantity": {
       "value": 220000,
@@ -2601,14 +2665,15 @@
       "color": "#e6c17c",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Boeing 747-8"
   },
   {
     "id": "mass.iss",
     "title": "国际空间站：419,725 kg，在轨质量",
     "summary": "国际空间站在轨质量约 419,725 kg，含舱段、桁架、太阳翼、散热板与舱内设备，不含对接的飞船。每次货运或载人飞船对接，组合体质量会临时增加 7–20 t。",
     "dimension": "mass",
-    "category": "航天器",
+    "category": "工程与交通",
     "displayValue": "4.19725×10⁵ kg",
     "quantity": {
       "value": 419725,
@@ -2641,14 +2706,15 @@
       "color": "#e6c17c",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "International Space Station"
   },
   {
     "id": "mass.wind-turbine",
     "title": "陆上风机：1.0×10⁶ kg，含塔筒的安装总质量",
     "summary": "一台 4–5 MW 级陆上风机的整机安装总质量约 1.0×10⁶ kg，含塔筒、机舱、轮毂与三支叶片，不含基础。塔筒 150–250 t、机舱 70–120 t、叶片每支 15–25 t。",
     "dimension": "mass",
-    "category": "能源设备",
+    "category": "工程与交通",
     "displayValue": "1.0×10⁶ kg",
     "quantity": {
       "value": 1000000,
@@ -2681,14 +2747,15 @@
       "color": "#e6c17c",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Onshore wind turbine"
   },
   {
     "id": "mass.eiffel-tower",
     "title": "埃菲尔铁塔：1.01×10⁷ kg，官方公布的结构总质量",
     "summary": "埃菲尔铁塔结构总质量约 1.01×10⁷ kg，其中锻铁框架约 7,300 t，其余为楼板、楼梯、电梯、设备与涂装。铁塔高 300 m，1889 年建成，由 18,038 个铁构件与 250 万颗铆钉组成。",
     "dimension": "mass",
-    "category": "建筑",
+    "category": "工程与交通",
     "displayValue": "1.01×10⁷ kg",
     "quantity": {
       "value": 10100000,
@@ -2721,14 +2788,15 @@
       "color": "#e6c17c",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Eiffel Tower"
   },
   {
     "id": "mass.cruise-ship",
     "title": "玛丽皇后二号：约 7.9×10⁷ kg，满载排水量",
     "summary": "玛丽皇后二号满载排水量约 79,000 t，即约 7.9×10⁷ kg。常被引用的 1.49×10⁵ 是容积总吨（GT），不是质量；把 GT 与排水量混用，会让这艘邮轮“重”了近一倍。",
     "dimension": "mass",
-    "category": "船舶",
+    "category": "工程与交通",
     "displayValue": "7.9×10⁷ kg",
     "quantity": {
       "value": 79000000,
@@ -2761,14 +2829,15 @@
       "color": "#e6c17c",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Queen Mary 2"
   },
   {
     "id": "mass.aircraft-carrier",
     "title": "杰拉尔德·R·福特号：约 1.0×10⁸ kg，满载排水量",
     "summary": "福特号（CVN-78）满载排水量约 100,000 长吨，即约 1.0×10⁸ kg；按 1 长吨 = 1,016 kg 换算约 1.02×10⁸ kg。这是含航空燃油与弹药的全舰质量，不是标准排水量。",
     "dimension": "mass",
-    "category": "船舶",
+    "category": "工程与交通",
     "displayValue": "1.0×10⁸ kg",
     "quantity": {
       "value": 100000000,
@@ -2801,14 +2870,15 @@
       "color": "#d8b46a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Gerald R. Ford-class aircraft carrier"
   },
   {
     "id": "mass.cargo-ship",
     "title": "马士基 3E 级：约 2.2×10⁸ kg，满载排水量",
     "summary": "3E 级集装箱船载重吨约 1.65×10⁵ t，轻船质量约 6×10⁴ t，满载排水量约 2.2×10⁸ kg。1.95×10⁵ 的容积总吨是体积，不是质量；载重吨也只算可加载部分。",
     "dimension": "mass",
-    "category": "船舶",
+    "category": "工程与交通",
     "displayValue": "2.2×10⁸ kg",
     "quantity": {
       "value": 220000000,
@@ -2841,14 +2911,15 @@
       "color": "#d8b46a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Maersk 3E-class container ship"
   },
   {
     "id": "mass.millau-viaduct",
     "title": "米约高架桥：约 2.9×10⁸ kg，结构总质量",
     "summary": "米约高架桥按设计方公布的材料量估算，结构总质量约 2.9×10⁸ kg；其中钢桥面约 36,000 t，其余为混凝土桥墩、桥台与基础。常被误写成“钢结构 29 万吨”，实际 29 万吨是整座结构的估算总重。",
     "dimension": "mass",
-    "category": "桥梁",
+    "category": "工程与交通",
     "displayValue": "2.9×10⁸ kg",
     "quantity": {
       "value": 290000000,
@@ -2881,14 +2952,15 @@
       "color": "#d8b46a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Millau Viaduct"
   },
   {
     "id": "mass.empire-state-building",
     "title": "帝国大厦：约 3.65×10⁸ kg，官方公布的结构总质量",
     "summary": "帝国大厦运营方公布建筑重量为 365,000 吨，约 3.65×10⁸ kg。原文只写 tons、未注明吨制，若按美制短吨折算约 3.3×10⁸ kg，相差约一成；本条取官方吨数按公吨换算。",
     "dimension": "mass",
-    "category": "建筑",
+    "category": "工程与交通",
     "displayValue": "3.65×10⁸ kg",
     "quantity": {
       "value": 365000000,
@@ -2921,14 +2993,15 @@
       "color": "#d8b46a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Empire State Building"
   },
   {
     "id": "mass.golden-gate-bridge",
     "title": "金门大桥：约 8.05×10⁸ kg，含锚碇与引桥的桥梁总质量",
     "summary": "金门大桥 1986 年官方统计的桥梁总质量为 887,000 吨，即 804,700,000 kg；不含锚碇与引桥的桥体约 3.82×10⁸ kg。两个口径差一倍，混用会把这座桥说轻一半。",
     "dimension": "mass",
-    "category": "桥梁",
+    "category": "工程与交通",
     "displayValue": "8.05×10⁸ kg",
     "quantity": {
       "value": 804700000,
@@ -2961,14 +3034,15 @@
       "color": "#d8b46a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Golden Gate Bridge"
   },
   {
     "id": "mass.burj-khalifa",
     "title": "哈利法塔：约 8.5×10⁸ kg，由官方材料量估算的结构总质量",
     "summary": "哈利法塔官方公布使用 33 万 m³ 混凝土与 3.9 万吨钢筋，按混凝土密度折算结构总质量约 8.5×10⁸ kg。常被引用的 5×10⁸ kg 来自“相当于 10 万头大象”的比喻，不是材料清单求和。",
     "dimension": "mass",
-    "category": "建筑",
+    "category": "工程与交通",
     "displayValue": "8.5×10⁸ kg",
     "quantity": {
       "value": 850000000,
@@ -3001,14 +3075,15 @@
       "color": "#d8b46a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Burj Khalifa"
   },
   {
     "id": "mass.hoover-dam",
     "title": "胡佛大坝：约 6.6×10⁹ kg，官方混凝土总量",
     "summary": "胡佛大坝坝体浇筑混凝土 3,250,335 立方码，垦务局记为 6,600,000 吨，约 6.6×10⁹ kg；若按美制短吨折算约 6.0×10⁹ kg。全工程含厂房的混凝土为 4.36×10⁶ 立方码。",
     "dimension": "mass",
-    "category": "水利工程",
+    "category": "工程与交通",
     "displayValue": "6.6×10⁹ kg",
     "quantity": {
       "value": 6600000000,
@@ -3041,14 +3116,15 @@
       "color": "#d8b46a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Hoover Dam"
   },
   {
     "id": "mass.grand-coulee-dam",
     "title": "大古力坝：约 2.2×10¹⁰ kg，混凝土体积×密度估算",
     "summary": "大古力坝混凝土总量 11,975,521 立方码（约 9.16×10⁶ m³），按 2.4 t/m³ 折算约 2.2×10¹⁰ kg。垦务局只公布体积，未给总质量；这是混凝土的估算质量，不含金属结构与机组。",
     "dimension": "mass",
-    "category": "水利工程",
+    "category": "工程与交通",
     "displayValue": "2.2×10¹⁰ kg",
     "quantity": {
       "value": 22000000000,
@@ -3081,14 +3157,15 @@
       "color": "#d8b46a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Grand Coulee Dam"
   },
   {
     "id": "mass.asteroid-itokawa",
     "title": "糸川：3.51×10¹⁰ kg，隼鸟号测出的碎石堆",
     "summary": "糸川（25143 Itokawa）总质量 3.51×10¹⁰ kg，由隼鸟号的近距离轨道跟踪与形状模型联合测定。它长约 535 米，密度约 1900 kg/m³，是首颗被采样返回的小行星。",
     "dimension": "mass",
-    "category": "彗星与小行星",
+    "category": "行星与小天体",
     "displayValue": "3.51×10¹⁰ kg",
     "quantity": {
       "value": 35100000000,
@@ -3133,14 +3210,15 @@
       "color": "#d8b46a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Itokawa"
   },
   {
     "id": "mass.asteroid-yu55",
     "title": "2005 YU55：6.7×10¹⁰ kg，雷达给出的三成误差",
     "summary": "小行星 2005 YU55 总质量约 6.7×10¹⁰ kg，不确定度约三成。它只在 2011 年近距离飞掠地球时被雷达详细成像，没有探测器环绕，质量只能由雷达形状与密度约束联合推出。",
     "dimension": "mass",
-    "category": "彗星与小行星",
+    "category": "行星与小天体",
     "displayValue": "6.7×10¹⁰ kg",
     "quantity": {
       "value": 67000000000,
@@ -3185,14 +3263,15 @@
       "color": "#d8b46a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "2005 YU55"
   },
   {
     "id": "mass.three-gorges-dam",
     "title": "三峡大坝：约 6.7×10¹⁰ kg，混凝土体积×密度估算",
     "summary": "三峡大坝主体混凝土浇筑量约 2,794 万 m³，按 2.4 t/m³ 折算约 6.7×10¹⁰ kg。这是混凝土的估算质量，不含库区 393 亿 m³ 的水；后者质量比坝体大四个数量级。",
     "dimension": "mass",
-    "category": "水利工程",
+    "category": "工程与交通",
     "displayValue": "6.7×10¹⁰ kg",
     "quantity": {
       "value": 67000000000,
@@ -3225,14 +3304,15 @@
       "color": "#d8b46a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Three Gorges Dam"
   },
   {
     "id": "mass.asteroid-bennu",
     "title": "贝努：7.329×10¹⁰ kg，OSIRIS-REx 近距离称重",
     "summary": "贝努（101955 Bennu）总质量 7.329×10¹⁰ kg，由 OSIRIS-REx 的轨道跟踪与引力场拟合测定，相对不确定度约千分之一。平均密度约 1190 kg/m³，是空隙率很高的碎石堆。",
     "dimension": "mass",
-    "category": "彗星与小行星",
+    "category": "行星与小天体",
     "displayValue": "7.329×10¹⁰ kg",
     "quantity": {
       "value": 73290000000,
@@ -3277,14 +3357,15 @@
       "color": "#d8b46a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Bennu"
   },
   {
     "id": "mass.asteroid-didymos",
     "title": "双卫一（主星）：5.2×10¹¹ kg，靠卫星轨道称出来的质量",
     "summary": "双卫一 Didymos 主星总质量约 5.2×10¹¹ kg，不确定度约两成。它没有探测器环绕，质量靠 Dimorphos 绕主星的轨道周期与半长轴，经开普勒第三定律反推。",
     "dimension": "mass",
-    "category": "彗星与小行星",
+    "category": "行星与小天体",
     "displayValue": "5.2×10¹¹ kg",
     "quantity": {
       "value": 520000000000,
@@ -3329,14 +3410,15 @@
       "color": "#d8b46a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Didymos"
   },
   {
     "id": "mass.comet-67p",
     "title": "67P/丘留莫夫—格拉西缅科：9.982×10¹² kg，一百亿吨的彗核",
     "summary": "Rosetta 通过探测器轨道拟合给出 67P 彗核总质量 9.982×10¹² kg，约一百亿吨。密度仅 533 kg/m³，说明它是一颗高孔隙率的碎石堆彗星，不是实心冰块。",
     "dimension": "mass",
-    "category": "彗星与小行星",
+    "category": "行星与小天体",
     "displayValue": "9.982×10¹² kg",
     "quantity": {
       "value": 9982000000000,
@@ -3381,14 +3463,15 @@
       "color": "#d8b46a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "67P/Churyumov–Gerasimenko"
   },
   {
     "id": "mass.asteroid-toutatis",
     "title": "图塔蒂斯：5.0×10¹³ kg，只有两位有效数字的雷达质量",
     "summary": "图塔蒂斯（4179 Toutatis）总质量约 5.0×10¹³ kg，不确定度约两成。它没有卫星也未被环绕探测，质量由雷达形状模型与密度约束联合给出，只能算 B 级推导值。",
     "dimension": "mass",
-    "category": "彗星与小行星",
+    "category": "行星与小天体",
     "displayValue": "5.0×10¹³ kg",
     "quantity": {
       "value": 50000000000000,
@@ -3433,14 +3516,15 @@
       "color": "#b8a58a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Toutatis"
   },
   {
     "id": "mass.comet-halley",
     "title": "哈雷彗星：2.2×10¹⁴ kg，只能给两位有效数字",
     "summary": "哈雷彗星总质量约 2.2×10¹⁴ kg，不确定度约一成。它由 Giotto 飞越、非引力加速度与长期轨道观测综合约束得到，属于 B 级推导值，不能读成精确到个位的数。",
     "dimension": "mass",
-    "category": "彗星与小行星",
+    "category": "行星与小天体",
     "displayValue": "2.2×10¹⁴ kg",
     "quantity": {
       "value": 220000000000000,
@@ -3485,14 +3569,15 @@
       "color": "#b8a58a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Halley's Comet"
   },
   {
     "id": "mass.asteroid-eros",
     "title": "爱神星：6.687×10¹⁵ kg，NEAR 用轨道称出的石头",
     "summary": "爱神星（433 Eros）总质量 6.687×10¹⁵ kg，由 NEAR Shoemaker 的无线电跟踪与轨道拟合测定，精度优于百分之一。它是第一颗被探测器环绕并“称重”的近地小行星。",
     "dimension": "mass",
-    "category": "彗星与小行星",
+    "category": "行星与小天体",
     "displayValue": "6.687×10¹⁵ kg",
     "quantity": {
       "value": 6687000000000000,
@@ -3537,14 +3622,15 @@
       "color": "#b8a58a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Eros"
   },
   {
     "id": "mass.phoebe",
     "title": "土卫九：8.29×10¹⁸ kg，被土星抓住的彗星？",
     "summary": "土卫九（Phoebe）总质量 8.29×10¹⁸ kg，由 Cassini 飞越时的轨道跟踪与引力场拟合测定。平均直径约 213 公里，密度仅 1.638 g/cm³，逆行轨道与暗表面说明它很可能是被捕获的环双星天体。",
     "dimension": "mass",
-    "category": "卫星与小天体",
+    "category": "行星与小天体",
     "displayValue": "8.29×10¹⁸ kg",
     "quantity": {
       "value": 8290000000000000000,
@@ -3589,14 +3675,15 @@
       "color": "#b8a58a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Phoebe"
   },
   {
     "id": "mass.psyche",
     "title": "灵神星：2.287×10¹⁹ kg，一颗待近距离称重的金属小行星",
     "summary": "灵神星是主带里的大质量小行星，总质量约 2.287×10¹⁹ kg，当前相对不确定度约 10%。数值来自地面观测与形状—密度模型，Psyche 探测器抵达后才会由引力场给出更准的读数。",
     "dimension": "mass",
-    "category": "小行星",
+    "category": "行星与小天体",
     "displayValue": "2.287×10¹⁹ kg",
     "quantity": {
       "value": 22870000000000000000,
@@ -3641,14 +3728,15 @@
       "color": "#8fc9d8",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Psyche"
   },
   {
     "id": "mass.vesta",
     "title": "灶神星：2.590×10²⁰ kg，Dawn 近距离测出的主带第二",
     "summary": "灶神星是主带第二大的小行星，总质量约 2.590×10²⁰ kg。Dawn 探测器环绕时的无线电跟踪把相对不确定度压到约 1%，是少数由航天器近距离测定质量的小行星。",
     "dimension": "mass",
-    "category": "小行星",
+    "category": "行星与小天体",
     "displayValue": "2.590×10²⁰ kg",
     "quantity": {
       "value": 259000000000000000000,
@@ -3693,14 +3781,15 @@
       "color": "#8fc9d8",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Vesta"
   },
   {
     "id": "mass.ceres",
     "title": "谷神星：9.383×10²⁰ kg，主带之王也是一颗矮行星",
     "summary": "谷神星是小行星带质量最大的天体，也是唯一位于主带的矮行星，总质量约 9.383×10²⁰ kg。Dawn 探测器环绕跟踪给出的相对不确定度约 1%。",
     "dimension": "mass",
-    "category": "矮行星",
+    "category": "行星与小天体",
     "displayValue": "9.383×10²⁰ kg",
     "quantity": {
       "value": 938300000000000000000,
@@ -3745,14 +3834,15 @@
       "color": "#8fc9d8",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Ceres"
   },
   {
     "id": "mass.pluto",
     "title": "冥王星：1.303×10²² kg，New Horizons 飞掠定下的矮行星",
     "summary": "冥王星是柯伊伯带最著名的矮行星，总质量约 1.303×10²² kg，约为月球的五分之一。New Horizons 飞掠与冥卫一轨道数据把相对不确定度压到约 0.5%。",
     "dimension": "mass",
-    "category": "矮行星",
+    "category": "行星与小天体",
     "displayValue": "1.303×10²² kg",
     "quantity": {
       "value": 1.303e+22,
@@ -3797,14 +3887,15 @@
       "color": "#8fc9d8",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Pluto"
   },
   {
     "id": "mass.europa",
     "title": "木卫二：4.800×10²² kg，冰壳下藏着海洋的卫星",
     "summary": "木卫二是木星的伽利略卫星之一，总质量约 4.800×10²² kg，约为月球的 65%。Galileo 多次飞掠的轨道跟踪把相对不确定度压到约 1%。",
     "dimension": "mass",
-    "category": "卫星",
+    "category": "行星与小天体",
     "displayValue": "4.800×10²² kg",
     "quantity": {
       "value": 4.8e+22,
@@ -3849,14 +3940,15 @@
       "color": "#8fc9d8",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Europa"
   },
   {
     "id": "mass.moon",
     "title": "月球：7.346×10²² kg，激光测月把误差压到万分之一",
     "summary": "月球是地球唯一的天然卫星，总质量约 7.346×10²² kg，约为地球的八十一分之一。激光测月与月球轨道器跟踪给出的相对不确定度约 0.01%，是天体质量中测得最准的几个之一。",
     "dimension": "mass",
-    "category": "卫星",
+    "category": "行星与小天体",
     "displayValue": "7.346×10²² kg",
     "quantity": {
       "value": 7.346e+22,
@@ -3901,14 +3993,15 @@
       "color": "#8fc9d8",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Moon"
   },
   {
     "id": "mass.titan",
     "title": "土卫六：1.345×10²³ kg，唯一拥有浓密大气的卫星",
     "summary": "土卫六是土星最大的卫星，总质量约 1.345×10²³ kg，比月球重约 1.8 倍。Cassini 多次飞掠的轨道跟踪把相对不确定度压到约 0.1%，但必须同时建模大气阻力。",
     "dimension": "mass",
-    "category": "卫星",
+    "category": "行星与小天体",
     "displayValue": "1.345×10²³ kg",
     "quantity": {
       "value": 1.345e+23,
@@ -3953,14 +4046,15 @@
       "color": "#8fc9d8",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Titan"
   },
   {
     "id": "mass.ganymede",
     "title": "木卫三：1.482×10²³ kg，太阳系最大的卫星",
     "summary": "木卫三是木星最大的卫星，也是太阳系最大的卫星，总质量约 1.482×10²³ kg，比水星略轻。Galileo 与 Juno 的跟踪数据给出约 0.1% 的相对不确定度。",
     "dimension": "mass",
-    "category": "卫星",
+    "category": "行星与小天体",
     "displayValue": "1.482×10²³ kg",
     "quantity": {
       "value": 1.482e+23,
@@ -4005,14 +4099,15 @@
       "color": "#8fc9d8",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Ganymede"
   },
   {
     "id": "mass.mercury",
     "title": "水星：3.301×10²³ kg，MESSENGER 环绕测出的最轻行星",
     "summary": "水星是离太阳最近的行星，总质量约 3.301×10²³ kg，约为地球的十八分之一。它没有卫星，质量只能靠 MESSENGER 的轨道跟踪反演，相对不确定度约 0.1%。",
     "dimension": "mass",
-    "category": "行星",
+    "category": "行星与小天体",
     "displayValue": "3.301×10²³ kg",
     "quantity": {
       "value": 3.301e+23,
@@ -4057,14 +4152,15 @@
       "color": "#8fc9d8",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Mercury"
   },
   {
     "id": "mass.earth",
     "title": "地球：5.972×10²⁴ kg，含大气与海洋的总质量",
     "summary": "地球总质量约 5.972×10²⁴ kg，明确包含大气与海洋。数值由人造卫星轨道跟踪与引力场模型拟合，相对不确定度约 1×10⁻³，主要受引力常数 G 的精度限制。",
     "dimension": "mass",
-    "category": "行星",
+    "category": "行星与小天体",
     "displayValue": "5.972×10²⁴ kg",
     "quantity": {
       "value": 5.972e+24,
@@ -4109,14 +4205,15 @@
       "color": "#8fc9d8",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Earth"
   },
   {
     "id": "mass.gj1214b",
     "title": "GJ 1214 b：3.91×10²⁵ kg，被厚水汽包住的超级地球",
     "summary": "GJ 1214 b 是一颗半径约 2.7 倍地球的超级地球，行星总质量约 3.91×10²⁵ kg，约合 6.55 个地球质量。质量由凌星与视向速度联合拟合得出，相对不确定度约 12%。",
     "dimension": "mass",
-    "category": "系外行星",
+    "category": "行星与小天体",
     "displayValue": "3.91×10²⁵ kg",
     "quantity": {
       "value": 3.91e+25,
@@ -4160,14 +4257,15 @@
       "color": "#7fb5e6",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "GJ 1214 b"
   },
   {
     "id": "mass.uranus",
     "title": "天王星：8.681×10²⁵ kg，躺着自转的冰巨星",
     "summary": "天王星是太阳系第七颗行星，行星总质量约 8.681×10²⁵ kg，约为地球质量的 14.5 倍。质量由旅行者2号飞越跟踪与卫星轨道拟合得出，相对不确定度约 0.02%。",
     "dimension": "mass",
-    "category": "行星",
+    "category": "行星与小天体",
     "displayValue": "8.681×10²⁵ kg",
     "quantity": {
       "value": 8.681e+25,
@@ -4212,14 +4310,15 @@
       "color": "#7fb5e6",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Uranus"
   },
   {
     "id": "mass.neptune",
     "title": "海王星：1.024×10²⁶ kg，靠笔尖算出来的冰巨星",
     "summary": "海王星是太阳系第八颗行星，行星总质量约 1.024×10²⁶ kg，约为地球质量的 17.1 倍。质量由旅行者2号跟踪与卫星轨道拟合得出，相对不确定度约 0.02%。",
     "dimension": "mass",
-    "category": "行星",
+    "category": "行星与小天体",
     "displayValue": "1.024×10²⁶ kg",
     "quantity": {
       "value": 1.024e+26,
@@ -4264,14 +4363,15 @@
       "color": "#7fb5e6",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Neptune"
   },
   {
     "id": "mass.saturn",
     "title": "土星：5.683×10²⁶ kg，带着环系的巨行星",
     "summary": "土星是太阳系第六颗行星，行星总质量约 5.683×10²⁶ kg，约为地球质量的 95 倍。质量由卡西尼号轨道跟踪与卫星轨道拟合得出，相对不确定度约 0.02%。",
     "dimension": "mass",
-    "category": "行星",
+    "category": "行星与小天体",
     "displayValue": "5.683×10²⁶ kg",
     "quantity": {
       "value": 5.683e+26,
@@ -4316,14 +4416,15 @@
       "color": "#7fb5e6",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Saturn"
   },
   {
     "id": "mass.51peg-b",
     "title": "51 Pegasi b：8.73×10²⁶ kg，第一颗被发现的系外行星",
     "summary": "51 Pegasi b 是人类确认的第一颗围绕主序星运行的系外行星，行星总质量约 8.73×10²⁶ kg，约合 0.46 个木星质量。质量由视向速度法测得，相对不确定度约 10%。",
     "dimension": "mass",
-    "category": "系外行星",
+    "category": "行星与小天体",
     "displayValue": "8.73×10²⁶ kg",
     "quantity": {
       "value": 8.73e+26,
@@ -4367,14 +4468,15 @@
       "color": "#7fb5e6",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "51 Pegasi b"
   },
   {
     "id": "mass.hd209458b",
     "title": "HD 209458 b：1.386×10²⁷ kg，第一颗被看到凌星的系外行星",
     "summary": "HD 209458 b 是一颗热木星，也是第一颗被观测到凌星现象的系外行星，行星总质量约 1.386×10²⁷ kg，约合 0.73 个木星质量。质量由凌星与视向速度联合拟合得出，相对不确定度约 5%。",
     "dimension": "mass",
-    "category": "系外行星",
+    "category": "行星与小天体",
     "displayValue": "1.386×10²⁷ kg",
     "quantity": {
       "value": 1.386e+27,
@@ -4419,14 +4521,15 @@
       "color": "#7fb5e6",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "HD 209458 b"
   },
   {
     "id": "mass.jupiter",
     "title": "木星：1.898×10²⁷ kg，太阳系最重的行星",
     "summary": "木星是太阳系质量最大的行星，行星总质量约 1.898×10²⁷ kg，约为地球质量的 318 倍。质量由航天器跟踪与伽利略卫星轨道拟合得出，相对不确定度约 0.02%。",
     "dimension": "mass",
-    "category": "行星",
+    "category": "行星与小天体",
     "displayValue": "1.898×10²⁷ kg",
     "quantity": {
       "value": 1.898e+27,
@@ -4471,14 +4574,15 @@
       "color": "#7fb5e6",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Jupiter"
   },
   {
     "id": "mass.2m1207b",
     "title": "2M1207 b：1.04×10²⁸ kg，直接成像的行星质量伴星",
     "summary": "2M1207 b 是围绕褐矮星 2M1207 运行的行星质量伴星，总质量约 1.04×10²⁸ kg，约合 5.5 个木星质量。质量由直接成像与演化模型拟合得出，相对不确定度约 27%。",
     "dimension": "mass",
-    "category": "行星质量伴星",
+    "category": "行星与小天体",
     "displayValue": "1.04×10²⁸ kg",
     "quantity": {
       "value": 1.04e+28,
@@ -4522,14 +4626,15 @@
       "color": "#7fb5e6",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "2M1207 b"
   },
   {
     "id": "mass.teide-1",
     "title": "Teide 1：1.08×10²⁹ kg，第一个被确认的褐矮星",
     "summary": "Teide 1 的质量约 1.08×10²⁹ kg，相当于约 57 个木星质量。数值来自演化模型对星团年龄与光度的拟合，属于模型依赖值，相对不确定度约 10%。",
     "dimension": "mass",
-    "category": "褐矮星",
+    "category": "行星与小天体",
     "displayValue": "1.08×10²⁹ kg",
     "quantity": {
       "value": 1.08e+29,
@@ -4574,14 +4679,15 @@
       "color": "#ffd37a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Teide 1"
   },
   {
     "id": "mass.proxima-centauri",
     "title": "比邻星：2.43×10²⁹ kg，离太阳最近的恒星",
     "summary": "比邻星质量约 2.43×10²⁹ kg，相当于 0.122 太阳质量。数值由质光关系定标，并用天体测量给出的距离与轨道信息约束，相对不确定度约 5%。",
     "dimension": "mass",
-    "category": "恒星",
+    "category": "恒星与致密天体",
     "displayValue": "2.43×10²⁹ kg",
     "quantity": {
       "value": 2.43e+29,
@@ -4626,14 +4732,15 @@
       "color": "#ffd37a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Proxima Centauri"
   },
   {
     "id": "mass.barnard-star",
     "title": "巴纳德星：2.86×10²⁹ kg，自行最快的红矮星",
     "summary": "巴纳德星质量约 2.86×10²⁹ kg，相当于 0.144 太阳质量。数值由质光关系定标，并用干涉测量得到的半径交叉检验，相对不确定度约 5%。",
     "dimension": "mass",
-    "category": "恒星",
+    "category": "恒星与致密天体",
     "displayValue": "2.86×10²⁹ kg",
     "quantity": {
       "value": 2.86e+29,
@@ -4678,14 +4785,15 @@
       "color": "#ffd37a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Barnard's Star"
   },
   {
     "id": "mass.sun",
     "title": "太阳：1.989×10³⁰ kg，整条质量阶梯的定义锚点",
     "summary": "太阳的恒星总质量约 1.989×10³⁰ kg，即 1 太阳质量，常被用作整条质量阶梯的换算单位。数值由国际天文学联合会推荐的名义太阳质量参数 GM☉ 除以引力常数 G 换算，相对不确定度约 1×10⁻⁴。",
     "dimension": "mass",
-    "category": "恒星",
+    "category": "恒星与致密天体",
     "displayValue": "1.989×10³⁰ kg",
     "quantity": {
       "value": 1.989e+30,
@@ -4729,14 +4837,15 @@
       "color": "#ffd37a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Sun"
   },
   {
     "id": "mass.sirius-b",
     "title": "天狼星 B：2.02×10³⁰ kg，地球大小的白矮星",
     "summary": "天狼星 B 质量约 2.02×10³⁰ kg，约 1.02 太阳质量，半径却只有地球量级。数值由双星轨道拟合并结合引力红移测定，相对不确定度约 2%。",
     "dimension": "mass",
-    "category": "恒星",
+    "category": "恒星与致密天体",
     "displayValue": "2.02×10³⁰ kg",
     "quantity": {
       "value": 2.02e+30,
@@ -4781,14 +4890,15 @@
       "color": "#ffd37a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Sirius B"
   },
   {
     "id": "mass.psr-j0348-0432",
     "title": "PSR J0348+0432：4.00×10³⁰ kg，两倍太阳质量的中子星",
     "summary": "PSR J0348+0432 质量约 4.00×10³⁰ kg，约 2.01 太阳质量。数值由脉冲星计时中的 Shapiro 延迟测定，相对不确定度约 0.5%，是检验致密物质物态方程的关键样本。",
     "dimension": "mass",
-    "category": "恒星",
+    "category": "恒星与致密天体",
     "displayValue": "4.00×10³⁰ kg",
     "quantity": {
       "value": 4e+30,
@@ -4833,14 +4943,15 @@
       "color": "#ffd37a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "PSR J0348+0432"
   },
   {
     "id": "mass.sirius-a",
     "title": "天狼星 A：4.10×10³⁰ kg，夜空最亮恒星的质量",
     "summary": "天狼星 A 质量约 4.10×10³⁰ kg，约 2.06 太阳质量。数值来自它与白矮星伴星天狼星 B 的双星轨道拟合，相对不确定度约 3%。",
     "dimension": "mass",
-    "category": "恒星",
+    "category": "恒星与致密天体",
     "displayValue": "4.10×10³⁰ kg",
     "quantity": {
       "value": 4.1e+30,
@@ -4885,14 +4996,15 @@
       "color": "#ffd37a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Sirius A"
   },
   {
     "id": "mass.betelgeuse",
     "title": "参宿四：3.28×10³¹ kg，只能给量级的红超巨星",
     "summary": "参宿四质量约 3.28×10³¹ kg，大致在 16.5 到 19 太阳质量之间。它没有可测轨道的伴星，数值完全依赖演化模型，只能给量级，相对不确定度约 30%。",
     "dimension": "mass",
-    "category": "恒星",
+    "category": "恒星与致密天体",
     "displayValue": "3.28×10³¹ kg",
     "quantity": {
       "value": 3.28e+31,
@@ -4937,14 +5049,15 @@
       "color": "#ffd37a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Betelgeuse"
   },
   {
     "id": "mass.cygnus-x1",
     "title": "天鹅座 X-1：4.22×10³¹ kg，第一个被确认的恒星级黑洞",
     "summary": "天鹅座 X-1 的动力学质量约 4.22×10³¹ kg，即 21.2 太阳质量。数值由双星轨道拟合得到，相对不确定度约 1%，是最可靠的恒星级黑洞质量之一。",
     "dimension": "mass",
-    "category": "黑洞",
+    "category": "恒星与致密天体",
     "displayValue": "4.22×10³¹ kg",
     "quantity": {
       "value": 4.22e+31,
@@ -4989,14 +5102,15 @@
       "color": "#ffd37a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Cygnus X-1"
   },
   {
     "id": "mass.gw150914-merger",
     "title": "GW150914 并合：1.23×10³² kg，第一次被听见的黑洞并合",
     "summary": "GW150914 并合后的黑洞质量约 1.23×10³² kg，即 62 太阳质量。数值由引力波波形反演得到，相对不确定度约 4%，是人类首次直接探测到的双黑洞并合产物。",
     "dimension": "mass",
-    "category": "黑洞",
+    "category": "恒星与致密天体",
     "displayValue": "1.23×10³² kg",
     "quantity": {
       "value": 1.23e+32,
@@ -5041,14 +5155,15 @@
       "color": "#ffd37a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "GW150914 merger"
   },
   {
     "id": "mass.eta-carinae",
     "title": "船底座 η：1.99×10³² kg，只能给量级的大质量双星",
     "summary": "船底座 η 的主星质量约 1.99×10³² kg，大致为 100 太阳质量。数值依赖演化模型与双星结构假设，只能给量级，相对不确定度约 30%。",
     "dimension": "mass",
-    "category": "恒星",
+    "category": "恒星与致密天体",
     "displayValue": "1.99×10³² kg",
     "quantity": {
       "value": 1.99e+32,
@@ -5093,14 +5208,15 @@
       "color": "#ffd37a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Eta Carinae"
   },
   {
     "id": "mass.gw190521-merger",
     "title": "GW190521 并合：2.82×10³² kg，跨进中等质量门槛的黑洞",
     "summary": "GW190521 并合后的黑洞质量约 2.82×10³² kg，即 142 太阳质量。数值由引力波波形反演得到，相对不确定度约 10%，是首个明确落入中等质量范围的并合产物。",
     "dimension": "mass",
-    "category": "黑洞",
+    "category": "恒星与致密天体",
     "displayValue": "2.82×10³² kg",
     "quantity": {
       "value": 2.82e+32,
@@ -5145,14 +5261,15 @@
       "color": "#ffd37a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "GW190521 merger"
   },
   {
     "id": "mass.gcirs-13e",
     "title": "GCIRS 13E：2.59×10³³ kg，银心附近的中等质量黑洞候选",
     "summary": "GCIRS 13E 是银河系中心附近的一个致密星团，被怀疑中心藏着一颗约 2.59×10³³ kg 的黑洞，折合约 1300 个太阳质量。这个数由星团内恒星的运动学估计得出，相对不确定度约 50%，只能给量级。",
     "dimension": "mass",
-    "category": "黑洞",
+    "category": "恒星与致密天体",
     "displayValue": "2.59×10³³ kg",
     "quantity": {
       "value": 2.59e+33,
@@ -5197,14 +5314,15 @@
       "color": "#ffd37a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "GCIRS 13E"
   },
   {
     "id": "mass.omega-centauri-bh",
     "title": "ω 星团中心黑洞：1.63×10³⁴ kg，脉冲星计时的独立校验",
     "summary": "半人马座 ω 是银河系最大的球状星团，其中心可能存在一颗约 1.63×10³⁴ kg 的黑洞，折合约 8200 个太阳质量。恒星动力学与脉冲星计时两条路线互相校验，相对不确定度约 15%。",
     "dimension": "mass",
-    "category": "黑洞",
+    "category": "恒星与致密天体",
     "displayValue": "1.63×10³⁴ kg",
     "quantity": {
       "value": 1.63e+34,
@@ -5249,14 +5367,15 @@
       "color": "#ff9a4a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Omega Centauri black hole"
   },
   {
     "id": "mass.hlx-1",
     "title": "HLX-1：3.98×10³⁴ kg，靠 X 射线光度推算的中等质量候选",
     "summary": "HLX-1 是星系 ESO 243-49 中的超亮 X 射线源，被解释为一颗约 3.98×10³⁴ kg 的中等质量黑洞，折合约两万个太阳质量。数值由 X 射线吸积光度推算，相对不确定度约 40%，只能给量级并视作候选。",
     "dimension": "mass",
-    "category": "黑洞",
+    "category": "恒星与致密天体",
     "displayValue": "3.98×10³⁴ kg",
     "quantity": {
       "value": 3.98e+34,
@@ -5301,14 +5420,15 @@
       "color": "#ff9a4a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "HLX-1"
   },
   {
     "id": "mass.ngc4395-black-hole",
     "title": "NGC 4395 中心黑洞：7.16×10³⁵ kg，反响映射称出的低质量端样本",
     "summary": "NGC 4395 是一个几乎没有核球的低表面亮度螺旋星系，中心黑洞质量约 7.16×10³⁵ kg，折合约三十六万个太阳质量。数值来自宽线区反响映射，相对不确定度约 20%。",
     "dimension": "mass",
-    "category": "黑洞",
+    "category": "恒星与致密天体",
     "displayValue": "7.16×10³⁵ kg",
     "quantity": {
       "value": 7.16e+35,
@@ -5353,14 +5473,15 @@
       "color": "#ff9a4a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "NGC 4395 black hole"
   },
   {
     "id": "mass.sgr-a-star",
     "title": "人马座 A*：8.55×10³⁶ kg，银心黑洞的轨道称重",
     "summary": "人马座 A* 是银河系中心的超大质量黑洞，质量约 8.55×10³⁶ kg，折合 4.297×10⁶ 个太阳质量。数值由银心 S 星轨道拟合得出，GRAVITY 干涉测量把相对不确定度压到约 0.3%。",
     "dimension": "mass",
-    "category": "黑洞",
+    "category": "恒星与致密天体",
     "displayValue": "8.55×10³⁶ kg",
     "quantity": {
       "value": 8.55e+36,
@@ -5405,14 +5526,15 @@
       "color": "#ff9a4a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Sagittarius A*"
   },
   {
     "id": "mass.ngc4151-black-hole",
     "title": "NGC 4151 中心黑洞：7.96×10³⁷ kg，反响映射的经典标定对象",
     "summary": "NGC 4151 是天空中最亮的塞弗特星系核之一，中心黑洞质量约 7.96×10³⁷ kg，折合约四千万个太阳质量。数值来自宽线区反响映射，相对不确定度约 15%。",
     "dimension": "mass",
-    "category": "黑洞",
+    "category": "恒星与致密天体",
     "displayValue": "7.96×10³⁷ kg",
     "quantity": {
       "value": 7.96e+37,
@@ -5457,14 +5579,15 @@
       "color": "#ff9a4a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "NGC 4151 black hole"
   },
   {
     "id": "mass.mrk231-black-hole",
     "title": "Mrk 231 中心黑洞：2.98×10³⁸ kg，尘埃遮蔽下的量级估算",
     "summary": "Mrk 231 是一个正在并合的极亮红外星系，中心黑洞质量约 2.98×10³⁸ kg，折合约一亿五千万个太阳质量。源被尘埃严重遮蔽，只能靠反响映射与模型联合拟合，相对不确定度约 30%，属于量级估算。",
     "dimension": "mass",
-    "category": "黑洞",
+    "category": "恒星与致密天体",
     "displayValue": "2.98×10³⁸ kg",
     "quantity": {
       "value": 2.98e+38,
@@ -5509,14 +5632,15 @@
       "color": "#ff9a4a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Mrk 231 black hole"
   },
   {
     "id": "mass.3c273",
     "title": "3C 273：1.76×10³⁹ kg，第一颗类星体的黑洞质量",
     "summary": "3C 273 是人类发现的第一颗类星体，中心黑洞质量约 1.76×10³⁹ kg，折合约八亿九千万个太阳质量。数值来自宽线区反响映射，相对不确定度约 15%。",
     "dimension": "mass",
-    "category": "黑洞",
+    "category": "恒星与致密天体",
     "displayValue": "1.76×10³⁹ kg",
     "quantity": {
       "value": 1.76e+39,
@@ -5561,14 +5685,15 @@
       "color": "#ff9a4a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "3C 273"
   },
   {
     "id": "mass.m87-black-hole",
     "title": "M87*：1.29×10⁴⁰ kg，第一个被拍到阴影的黑洞",
     "summary": "M87* 是室女座 A 星系中心的超大质量黑洞，质量约 1.29×10⁴⁰ kg，折合约六十五亿个太阳质量。事件视界望远镜的阴影测量与核区恒星动力学结果一致，相对不确定度约 11%。",
     "dimension": "mass",
-    "category": "黑洞",
+    "category": "恒星与致密天体",
     "displayValue": "1.29×10⁴⁰ kg",
     "quantity": {
       "value": 1.29e+40,
@@ -5613,14 +5738,15 @@
       "color": "#ff9a4a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "M87*"
   },
   {
     "id": "mass.ton-618",
     "title": "Ton 618：8.09×10⁴⁰ kg，已知最重的黑洞之一",
     "summary": "Ton 618 是一颗高光度类星体，中心黑洞质量约 8.09×10⁴⁰ kg，折合约四百零七亿个太阳质量。数值由宽线区反响映射结合模型拟合得出，相对不确定度约 20%。",
     "dimension": "mass",
-    "category": "黑洞",
+    "category": "恒星与致密天体",
     "displayValue": "8.09×10⁴⁰ kg",
     "quantity": {
       "value": 8.09e+40,
@@ -5665,14 +5791,15 @@
       "color": "#ff9a4a",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Ton 618"
   },
   {
     "id": "mass.large-magellanic-cloud",
     "title": "大麦哲伦云：约 2.8×10⁴¹ kg，银河系最亮的卫星星系",
     "summary": "大麦哲伦云是银河系最亮的卫星星系，总质量约 2.8×10⁴¹ kg，折合约 1.4×10¹¹ 个太阳质量，口径包含暗物质晕。数值由卫星星系运动学与旋转曲线拟合给出，恒星质量仅约 2.7×10⁹ 个太阳质量，相对不确定度约 30%。",
     "dimension": "mass",
-    "category": "星系",
+    "category": "星系与宇宙",
     "displayValue": "2.8×10⁴¹ kg",
     "quantity": {
       "value": 2.8e+41,
@@ -5717,14 +5844,15 @@
       "color": "#a6bfff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Large Magellanic Cloud"
   },
   {
     "id": "mass.andromeda",
     "title": "仙女座星系：约 2.98×10⁴² kg，与银河系相当的总质量",
     "summary": "仙女座星系（M31）的总质量约 2.98×10⁴² kg，折合约 1.5×10¹² 个太阳质量，口径包含暗物质晕。数值由旋转曲线与卫星星系运动联合拟合，恒星质量约 1×10¹¹ 个太阳质量，相对不确定度约 30%。",
     "dimension": "mass",
-    "category": "星系",
+    "category": "星系与宇宙",
     "displayValue": "2.98×10⁴² kg",
     "quantity": {
       "value": 2.98e+42,
@@ -5769,14 +5897,15 @@
       "color": "#a6bfff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Andromeda Galaxy"
   },
   {
     "id": "mass.milky-way",
     "title": "银河系：约 2.98×10⁴² kg，含暗物质的总质量",
     "summary": "银河系的总质量约 2.98×10⁴² kg，折合约 1.5×10¹² 个太阳质量，口径包含暗物质晕。数值由卫星星系运动与旋转曲线联合拟合，恒星质量仅约 6×10¹⁰ 个太阳质量，相对不确定度约 30%。",
     "dimension": "mass",
-    "category": "星系",
+    "category": "星系与宇宙",
     "displayValue": "2.98×10⁴² kg",
     "quantity": {
       "value": 2.98e+42,
@@ -5821,14 +5950,15 @@
       "color": "#a6bfff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Milky Way"
   },
   {
     "id": "mass.local-group",
     "title": "本星系群：约 4.6×10⁴² kg，银河系所在的引力系统",
     "summary": "本星系群由银河系、仙女座星系及数十个矮星系组成，总质量约 4.6×10⁴² kg，折合约 2.3×10¹² 个太阳质量，口径包含暗物质。数值由成员运动学估算，相对不确定度约 40%，属量级估算。",
     "dimension": "mass",
-    "category": "星系群",
+    "category": "星系与宇宙",
     "displayValue": "4.6×10⁴² kg",
     "quantity": {
       "value": 4.6e+42,
@@ -5873,14 +6003,15 @@
       "color": "#a6bfff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Local Group"
   },
   {
     "id": "mass.m87-galaxy",
     "title": "M87 星系：约 4.8×10⁴² kg，室女座星系团的中心巨椭圆星系",
     "summary": "M87 是室女座星系团中心的巨椭圆星系，总质量约 4.8×10⁴² kg，折合约 2.4×10¹² 个太阳质量，口径包含暗物质晕。数值由 X 射线热气与恒星运动学联合给出，恒星质量约三千亿个太阳质量，相对不确定度约 30%。",
     "dimension": "mass",
-    "category": "星系",
+    "category": "星系与宇宙",
     "displayValue": "4.8×10⁴² kg",
     "quantity": {
       "value": 4.8e+42,
@@ -5925,14 +6056,15 @@
       "color": "#a6bfff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Messier 87"
   },
   {
     "id": "mass.centaurus-a-group",
     "title": "半人马座 A 星系群：约 2.6×10⁴³ kg，南天最近的星系群之一",
     "summary": "半人马座 A 星系群以 NGC 5128 为核心，总质量约 2.6×10⁴³ kg，折合约 1.3×10¹³ 个太阳质量，口径包含暗物质。数值由成员星系速度弥散估算，相对不确定度约 50%，属量级估算。",
     "dimension": "mass",
-    "category": "星系群",
+    "category": "星系与宇宙",
     "displayValue": "2.6×10⁴³ kg",
     "quantity": {
       "value": 2.6e+43,
@@ -5977,14 +6109,15 @@
       "color": "#a6bfff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Centaurus A Group"
   },
   {
     "id": "mass.fornax-cluster",
     "title": "天炉座星系团：约 1.4×10⁴⁴ kg，南天富星系团的代表",
     "summary": "天炉座星系团是南天较近的富星系团，总质量约 1.4×10⁴⁴ kg，折合约 7×10¹³ 个太阳质量，口径包含暗物质。数值由 X 射线热气与成员速度弥散联合给出，相对不确定度约 30%。",
     "dimension": "mass",
-    "category": "星系团",
+    "category": "星系与宇宙",
     "displayValue": "1.4×10⁴⁴ kg",
     "quantity": {
       "value": 1.4e+44,
@@ -6029,14 +6162,15 @@
       "color": "#a6bfff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Fornax Cluster"
   },
   {
     "id": "mass.virgo-cluster",
     "title": "室女座星系团：约 2.4×10⁴⁵ kg，离我们最近的富星系团",
     "summary": "室女座星系团是离我们最近的富星系团，总质量约 2.4×10⁴⁵ kg，折合约 1.2×10¹⁵ 个太阳质量，口径包含暗物质。数值由 X 射线热气与成员速度弥散联合给出，相对不确定度约 30%。",
     "dimension": "mass",
-    "category": "星系团",
+    "category": "星系与宇宙",
     "displayValue": "2.4×10⁴⁵ kg",
     "quantity": {
       "value": 2.4e+45,
@@ -6081,14 +6215,15 @@
       "color": "#a6bfff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Virgo Cluster"
   },
   {
     "id": "mass.bullet-cluster",
     "title": "子弹星系团：约 3.0×10⁴⁵ kg，暗物质与气体分离的碰撞现场",
     "summary": "子弹星系团（1E 0657-56）是两个星系团正在并合的系统，总质量约 3.0×10⁴⁵ kg，折合约 1.5×10¹⁵ 个太阳质量，口径包含暗物质。数值由引力透镜与 X 射线气体联合给出，相对不确定度约 30%。",
     "dimension": "mass",
-    "category": "星系团",
+    "category": "星系与宇宙",
     "displayValue": "3.0×10⁴⁵ kg",
     "quantity": {
       "value": 3e+45,
@@ -6133,14 +6268,15 @@
       "color": "#a6bfff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Bullet Cluster"
   },
   {
     "id": "mass.coma-cluster",
     "title": "后发座星系团：约 3.0×10⁴⁵ kg，暗物质证据的经典舞台",
     "summary": "后发座星系团是著名的富星系团，总质量约 3.0×10⁴⁵ kg，折合约 1.5×10¹⁵ 个太阳质量，口径包含暗物质。数值由 X 射线热气与引力透镜联合给出，相对不确定度约 30%。",
     "dimension": "mass",
-    "category": "星系团",
+    "category": "星系与宇宙",
     "displayValue": "3.0×10⁴⁵ kg",
     "quantity": {
       "value": 3e+45,
@@ -6185,14 +6321,15 @@
       "color": "#a6bfff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Coma Cluster"
   },
   {
     "id": "mass.cfa2-great-wall",
     "title": "CfA2 长城：约 2.0×10⁴⁶ kg，星系组成的纤维状大尺度结构",
     "summary": "CfA2 长城是星系红移巡天发现的纤维状大尺度结构，总质量约 2.0×10⁴⁶ kg，折合约 1×10¹⁶ 个太阳质量，口径包含暗物质。数值由红移巡天与结构模型估算，相对不确定度约 50%，属量级估算。",
     "dimension": "mass",
-    "category": "大尺度结构",
+    "category": "星系与宇宙",
     "displayValue": "2.0×10⁴⁶ kg",
     "quantity": {
       "value": 2e+46,
@@ -6237,14 +6374,15 @@
       "color": "#a6bfff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "CfA2 Great Wall"
   },
   {
     "id": "mass.laniakea",
     "title": "拉尼亚凯亚超星系团：约 2.0×10⁴⁷ kg，银河系所在的超星系团",
     "summary": "拉尼亚凯亚超星系团是以巨引源为中心的庞大结构，总质量约 2.0×10⁴⁷ kg，折合约 1×10¹⁷ 个太阳质量，口径包含暗物质。数值由星系流场与引力盆划分估算，相对不确定度约 50%，属量级估算。",
     "dimension": "mass",
-    "category": "超星系团",
+    "category": "星系与宇宙",
     "displayValue": "2.0×10⁴⁷ kg",
     "quantity": {
       "value": 2e+47,
@@ -6289,14 +6427,15 @@
       "color": "#a6bfff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Laniakea Supercluster"
   },
   {
     "id": "mass.boss-great-wall",
     "title": "BOSS 长城：2.0×10⁴⁸ kg，十亿光年尺度的星系超结构",
     "summary": "BOSS 长城是红移约 0.47 处的星系超结构，总质量约 2.0×10⁴⁸ kg，折合约 1×10¹⁸ 个太阳质量。口径为含暗物质的总质量，数值由红移巡天的星系密度场与结构模型反推，相对不确定度约 50%，只能给量级。",
     "dimension": "mass",
-    "category": "大尺度结构",
+    "category": "星系与宇宙",
     "displayValue": "2.0×10⁴⁸ kg",
     "quantity": {
       "value": 2e+48,
@@ -6341,14 +6480,15 @@
       "color": "#c9d8ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "BOSS Great Wall"
   },
   {
     "id": "mass.sloan-great-wall",
     "title": "斯隆长城：2.0×10⁴⁸ kg，SDSS 巡天发现的星系长链",
     "summary": "斯隆长城是斯隆数字巡天在红移约 0.08 处发现的星系超结构，总质量约 2.0×10⁴⁸ kg，折合约 1×10¹⁸ 个太阳质量。口径为含暗物质的总质量，数值由 SDSS 红移巡天与结构模型估算，相对不确定度约 50%，只能给量级。",
     "dimension": "mass",
-    "category": "大尺度结构",
+    "category": "星系与宇宙",
     "displayValue": "2.0×10⁴⁸ kg",
     "quantity": {
       "value": 2e+48,
@@ -6393,14 +6533,15 @@
       "color": "#c9d8ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Sloan Great Wall"
   },
   {
     "id": "mass.hercules-corona-borealis-great-wall",
     "title": "赫拉克勒斯—北冕座长城：2.0×10⁴⁹ kg，已知最大的候选超结构",
     "summary": "赫拉克勒斯—北冕座长城是据伽马射线暴分布识别出的超大结构，总质量约 2.0×10⁴⁹ kg，折合约 1×10¹⁹ 个太阳质量。口径为含暗物质的总质量，由伽马暴红移分布与结构模型反推，相对不确定度约 50%，只能给量级。",
     "dimension": "mass",
-    "category": "大尺度结构",
+    "category": "星系与宇宙",
     "displayValue": "2.0×10⁴⁹ kg",
     "quantity": {
       "value": 2e+49,
@@ -6445,14 +6586,15 @@
       "color": "#c9d8ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Hercules–Corona Borealis Great Wall"
   },
   {
     "id": "mass.hubble-volume",
     "title": "哈勃体积内的临界质量：8.8×10⁵² kg",
     "summary": "哈勃体积指以哈勃半径 c/H₀ 为半径的球，其内按临界密度折算的总质量约 8.8×10⁵² kg。这个口径包含暗能量的能量当量，不是普通物质质量，也不等于可观测宇宙内的物质总量。",
     "dimension": "mass",
-    "category": "宇宙尺度",
+    "category": "星系与宇宙",
     "displayValue": "8.8×10⁵² kg",
     "quantity": {
       "value": 8.8e+52,
@@ -6496,14 +6638,15 @@
       "color": "#c9d8ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Critical mass in the Hubble volume"
   },
   {
     "id": "mass.observable-universe",
     "title": "可观测宇宙的普通物质：1.5×10⁵³ kg",
     "summary": "可观测宇宙内普通物质（重子）的总质量约 1.5×10⁵³ kg，只算重子，不含暗物质与暗能量。数值由宇宙微波背景的 Ω_b 与临界密度、共动体积换算，相对不确定度约 2%。",
     "dimension": "mass",
-    "category": "宇宙尺度",
+    "category": "星系与宇宙",
     "displayValue": "1.5×10⁵³ kg",
     "quantity": {
       "value": 1.5e+53,
@@ -6547,14 +6690,15 @@
       "color": "#c9d8ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Ordinary matter in the observable universe"
   },
   {
     "id": "mass.dark-matter-mass",
     "title": "可观测宇宙的暗物质：8.4×10⁵³ kg",
     "summary": "可观测宇宙内暗物质的总质量约 8.4×10⁵³ kg，只算暗物质，不含普通物质与暗能量。数值由微波背景的 Ω_dm 与临界密度、共动体积换算，相对不确定度约 3%。",
     "dimension": "mass",
-    "category": "宇宙尺度",
+    "category": "星系与宇宙",
     "displayValue": "8.4×10⁵³ kg",
     "quantity": {
       "value": 8.4e+53,
@@ -6598,14 +6742,15 @@
       "color": "#c9d8ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Dark matter in the observable universe"
   },
   {
     "id": "mass.total-matter-universe",
     "title": "可观测宇宙的总物质：9.9×10⁵³ kg",
     "summary": "可观测宇宙内普通物质与暗物质合计约 9.9×10⁵³ kg，只含物质、不含暗能量。数值由 Ω_m 与临界密度、共动体积换算，相对不确定度约 2%。",
     "dimension": "mass",
-    "category": "宇宙尺度",
+    "category": "星系与宇宙",
     "displayValue": "9.9×10⁵³ kg",
     "quantity": {
       "value": 9.9e+53,
@@ -6649,6 +6794,7 @@
       "color": "#c9d8ff",
       "scaleMin": -40,
       "scaleMax": 53
-    }
+    },
+    "titleEn": "Total matter in the observable universe"
   }
 ]

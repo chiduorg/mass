@@ -5,7 +5,7 @@ summary: >-
   3E 级集装箱船载重吨约 1.65×10⁵ t，轻船质量约 6×10⁴ t，满载排水量约 2.2×10⁸ kg。1.95×10⁵
   的容积总吨是体积，不是质量；载重吨也只算可加载部分。
 dimension: mass
-category: 船舶
+category: 工程与交通
 displayValue: 2.2×10⁸ kg
 quantity:
   value: 220000000
@@ -45,6 +45,10 @@ sources:
     url: 'https://www.ice.org.uk/'
     publisher: Institution of Civil Engineers
     accessed: '2026-11-09'
+  - title: 'SI base unit: kilogram (kg)'
+    url: 'https://www.bipm.org/en/si-base-units/kilogram'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 tags:
   - 质量
   - 集装箱船
@@ -69,6 +73,7 @@ visual:
   color: '#d8b46a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Maersk 3E-class container ship
 ---
 ## 这个读数是什么
 
@@ -89,3 +94,5 @@ visual:
 ## 怎么继续走
 
 想看同量级的客船，去 mass.cruise-ship；想看越线的军舰，去 mass.aircraft-carrier；想比较钢结构桥梁的质量效率，去 mass.eiffel-tower；想理解船体用钢的成分，从 elements.fe 进入元素轴。
+
+本条的质量单位与换算依据 BIPM 对千克的定义。[3]

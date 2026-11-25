@@ -5,7 +5,7 @@ summary: >-
   单个成熟人类红细胞的湿重均值约 1.0×10⁻¹³ kg（100 pg），干重约占三分之一，其中血红蛋白约 30 pg。由约 90 飞升的细胞体积与约
   1.1 g/cm³ 的密度估算，不确定度约 ±15%。
 dimension: mass
-category: 血细胞
+category: 生命与人体
 displayValue: 1.0×10⁻¹³ kg
 quantity:
   value: 1.e-13
@@ -71,6 +71,7 @@ visual:
   color: '#b48cff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Human red blood cell
 ---
 ## 这个读数是什么
 

@@ -3,7 +3,7 @@ id: mass.europa
 title: 木卫二：4.800×10²² kg，冰壳下藏着海洋的卫星
 summary: 木卫二是木星的伽利略卫星之一，总质量约 4.800×10²² kg，约为月球的 65%。Galileo 多次飞掠的轨道跟踪把相对不确定度压到约 1%。
 dimension: mass
-category: 卫星
+category: 行星与小天体
 displayValue: 4.800×10²² kg
 quantity:
   value: 4.8e+22
@@ -78,6 +78,7 @@ visual:
   color: '#8fc9d8'
   scaleMin: -40
   scaleMax: 53
+titleEn: Europa
 ---
 ## 这个读数是什么
 

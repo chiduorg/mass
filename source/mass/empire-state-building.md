@@ -5,7 +5,7 @@ summary: >-
   帝国大厦运营方公布建筑重量为 365,000 吨，约 3.65×10⁸ kg。原文只写 tons、未注明吨制，若按美制短吨折算约 3.3×10⁸
   kg，相差约一成；本条取官方吨数按公吨换算。
 dimension: mass
-category: 建筑
+category: 工程与交通
 displayValue: 3.65×10⁸ kg
 quantity:
   value: 365000000
@@ -70,6 +70,7 @@ visual:
   color: '#d8b46a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Empire State Building
 ---
 ## 这个读数是什么
 

@@ -5,7 +5,7 @@ summary: >-
   土卫六是土星最大的卫星，总质量约 1.345×10²³ kg，比月球重约 1.8 倍。Cassini 多次飞掠的轨道跟踪把相对不确定度压到约
   0.1%，但必须同时建模大气阻力。
 dimension: mass
-category: 卫星
+category: 行星与小天体
 displayValue: 1.345×10²³ kg
 quantity:
   value: 1.345e+23
@@ -80,6 +80,7 @@ visual:
   color: '#8fc9d8'
   scaleMin: -40
   scaleMax: 53
+titleEn: Titan
 ---
 ## 这个读数是什么
 

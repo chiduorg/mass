@@ -5,7 +5,7 @@ summary: >-
   土卫九（Phoebe）总质量 8.29×10¹⁸ kg，由 Cassini 飞越时的轨道跟踪与引力场拟合测定。平均直径约 213 公里，密度仅 1.638
   g/cm³，逆行轨道与暗表面说明它很可能是被捕获的环双星天体。
 dimension: mass
-category: 卫星与小天体
+category: 行星与小天体
 displayValue: 8.29×10¹⁸ kg
 quantity:
   value: 8290000000000000000
@@ -80,6 +80,7 @@ visual:
   color: '#b8a58a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Phoebe
 ---
 ## 这个读数是什么
 

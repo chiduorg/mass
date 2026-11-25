@@ -5,7 +5,7 @@ summary: >-
   冥王星是柯伊伯带最著名的矮行星，总质量约 1.303×10²² kg，约为月球的五分之一。New Horizons 飞掠与冥卫一轨道数据把相对不确定度压到约
   0.5%。
 dimension: mass
-category: 矮行星
+category: 行星与小天体
 displayValue: 1.303×10²² kg
 quantity:
   value: 1.303e+22
@@ -80,6 +80,7 @@ visual:
   color: '#8fc9d8'
   scaleMin: -40
   scaleMax: 53
+titleEn: Pluto
 ---
 ## 这个读数是什么
 

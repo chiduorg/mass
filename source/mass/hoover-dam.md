@@ -5,7 +5,7 @@ summary: >-
   胡佛大坝坝体浇筑混凝土 3,250,335 立方码，垦务局记为 6,600,000 吨，约 6.6×10⁹ kg；若按美制短吨折算约 6.0×10⁹
   kg。全工程含厂房的混凝土为 4.36×10⁶ 立方码。
 dimension: mass
-category: 水利工程
+category: 工程与交通
 displayValue: 6.6×10⁹ kg
 quantity:
   value: 6600000000
@@ -45,6 +45,10 @@ sources:
     url: 'https://www.ice.org.uk/'
     publisher: Institution of Civil Engineers
     accessed: '2026-11-09'
+  - title: 'SI base unit: kilogram (kg)'
+    url: 'https://www.bipm.org/en/si-base-units/kilogram'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 tags:
   - 质量
   - 大坝
@@ -69,6 +73,7 @@ visual:
   color: '#d8b46a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Hoover Dam
 ---
 ## 这个读数是什么
 
@@ -89,3 +94,5 @@ visual:
 ## 怎么继续走
 
 想看更大的混凝土坝，去 mass.three-gorges-dam；想看同一条河系上的另一座重力坝，去 mass.grand-coulee-dam；想比较建筑与坝体的质量效率，去 mass.empire-state-building；想理解水泥与骨料的成分，从 elements.c 进入元素轴。
+
+本条的质量单位与换算依据 BIPM 对千克的定义。[3]

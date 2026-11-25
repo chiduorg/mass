@@ -4,7 +4,7 @@ title: 底夸克：4.18 GeV 的流质量，B 物理的质量标尺
 summary: 底夸克的流质量约为 4.18 GeV/c²，即 7.452×10⁻²⁷ kg。它比粲夸克重三倍多，是 B 介子、CP 破坏与希格斯衰变研究的关键质量参数。
 dimension: mass
 grade: A
-category: 基本粒子
+category: 粒子与基本常数
 displayValue: ≈ 7.452×10⁻²⁷ kg（流质量 4.18 GeV）
 quantity:
   value: 7.452e-27
@@ -69,6 +69,7 @@ visual:
   color: '#8dd5ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Bottom quark
 ---
 ## 这个读数是什么
 

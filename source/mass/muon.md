@@ -6,7 +6,7 @@ summary: >-
   倍，却与电子共享同一套弱作用与电磁作用。
 dimension: mass
 grade: A
-category: 基本粒子
+category: 粒子与基本常数
 displayValue: 1.884×10⁻²⁸ kg
 quantity:
   value: 1.883531627e-28
@@ -71,6 +71,7 @@ visual:
   color: '#8dd5ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Muon
 ---
 ## 这个读数是什么
 

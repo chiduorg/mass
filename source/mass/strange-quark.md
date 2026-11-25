@@ -6,7 +6,7 @@ summary: >-
   kg。它比上、下夸克重一个数量级以上，却仍轻到能在中子星与强子物理中扮演角色。
 dimension: mass
 grade: A
-category: 基本粒子
+category: 粒子与基本常数
 displayValue: ≈ 1.665×10⁻²⁸ kg（流质量 93.4 MeV）
 quantity:
   value: 1.665e-28
@@ -71,6 +71,7 @@ visual:
   color: '#8dd5ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Strange quark
 ---
 ## 这个读数是什么
 

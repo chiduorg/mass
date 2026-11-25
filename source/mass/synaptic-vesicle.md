@@ -5,7 +5,7 @@ summary: >-
   突触囊泡直径约 40 nm，单个囊泡湿重均值约 3.0×10⁻²⁰ kg，约合 1.8×10⁷ Da。数值由粒径分布与 1.1 g/cm³
   的湿密度估算，随囊泡大小与递质装载量变化。
 dimension: mass
-category: 细胞器
+category: 生命与人体
 displayValue: 3.0×10⁻²⁰ kg
 quantity:
   value: 3.e-20
@@ -70,6 +70,7 @@ visual:
   color: '#b7a6ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Synaptic vesicle
 ---
 ## 这个读数是什么
 

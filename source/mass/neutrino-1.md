@@ -4,7 +4,7 @@ title: ν₁：最轻的中微子质量本征态，目前只有上限
 summary: ν₁ 是三个质量本征态里最轻的一个。振荡实验只能定出质量平方差，绝对值缺失；宇宙学总和约束给出约 0.05 eV、即 8.9×10⁻³⁸ kg 的上限。
 dimension: mass
 grade: C
-category: 基本粒子
+category: 粒子与基本常数
 displayValue: ≤ 8.9×10⁻³⁸ kg（约 0.05 eV，上限）
 quantity:
   value: 8.9e-38
@@ -70,6 +70,7 @@ visual:
   color: '#7fe8ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Neutrino mass eigenstate ν₁
 ---
 ## 这个读数是什么
 

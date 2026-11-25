@@ -5,7 +5,7 @@ summary: >-
   可观测宇宙内暗物质的总质量约 8.4×10⁵³ kg，只算暗物质，不含普通物质与暗能量。数值由微波背景的 Ω_dm 与临界密度、共动体积换算，相对不确定度约
   3%。
 dimension: mass
-category: 宇宙尺度
+category: 星系与宇宙
 displayValue: 8.4×10⁵³ kg
 quantity:
   value: 8.4e+53
@@ -79,6 +79,7 @@ visual:
   color: '#c9d8ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Dark matter in the observable universe
 ---
 ## 这个读数是什么
 

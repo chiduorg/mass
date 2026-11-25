@@ -6,7 +6,7 @@ summary: >-
   1.29 MeV。
 dimension: mass
 grade: A
-category: 基本粒子
+category: 粒子与基本常数
 displayValue: ≈ 8.33×10⁻³⁰ kg（流质量 4.67 MeV）
 quantity:
   value: 8.33e-30
@@ -71,6 +71,7 @@ visual:
   color: '#8dd5ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Down quark
 ---
 ## 这个读数是什么
 

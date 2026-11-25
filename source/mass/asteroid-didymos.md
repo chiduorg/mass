@@ -5,7 +5,7 @@ summary: >-
   双卫一 Didymos 主星总质量约 5.2×10¹¹ kg，不确定度约两成。它没有探测器环绕，质量靠 Dimorphos
   绕主星的轨道周期与半长轴，经开普勒第三定律反推。
 dimension: mass
-category: 彗星与小行星
+category: 行星与小天体
 displayValue: 5.2×10¹¹ kg
 quantity:
   value: 520000000000
@@ -80,6 +80,7 @@ visual:
   color: '#d8b46a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Didymos
 ---
 ## 这个读数是什么
 

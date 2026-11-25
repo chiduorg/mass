@@ -4,7 +4,7 @@ title: τ 子：3.168×10⁻²⁷ kg，最重的带电轻子
 summary: τ 子是第三代带电轻子，静质量 3.16754×10⁻²⁷ kg，约 1776.86 MeV/c²。它比质子重近两倍，寿命却只有 2.9×10⁻¹³ 秒。
 dimension: mass
 grade: A
-category: 基本粒子
+category: 粒子与基本常数
 displayValue: 3.168×10⁻²⁷ kg
 quantity:
   value: 3.16754e-27
@@ -69,6 +69,7 @@ visual:
   color: '#8dd5ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Tau lepton
 ---
 ## 这个读数是什么
 

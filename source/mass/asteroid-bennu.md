@@ -5,7 +5,7 @@ summary: >-
   贝努（101955 Bennu）总质量 7.329×10¹⁰ kg，由 OSIRIS-REx 的轨道跟踪与引力场拟合测定，相对不确定度约千分之一。平均密度约
   1190 kg/m³，是空隙率很高的碎石堆。
 dimension: mass
-category: 彗星与小行星
+category: 行星与小天体
 displayValue: 7.329×10¹⁰ kg
 quantity:
   value: 73290000000
@@ -80,6 +80,7 @@ visual:
   color: '#d8b46a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Bennu
 ---
 ## 这个读数是什么
 

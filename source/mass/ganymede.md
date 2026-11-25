@@ -5,7 +5,7 @@ summary: >-
   木卫三是木星最大的卫星，也是太阳系最大的卫星，总质量约 1.482×10²³ kg，比水星略轻。Galileo 与 Juno 的跟踪数据给出约 0.1%
   的相对不确定度。
 dimension: mass
-category: 卫星
+category: 行星与小天体
 displayValue: 1.482×10²³ kg
 quantity:
   value: 1.482e+23
@@ -80,6 +80,7 @@ visual:
   color: '#8fc9d8'
   scaleMin: -40
   scaleMax: 53
+titleEn: Ganymede
 ---
 ## 这个读数是什么
 

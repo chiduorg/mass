@@ -6,7 +6,7 @@ summary: >-
   kg。夸克受色禁闭约束，不能孤立观测；这个数是跑动质量，不是把夸克拿在手里的读数。
 dimension: mass
 grade: A
-category: 基本粒子
+category: 粒子与基本常数
 displayValue: ≈ 3.85×10⁻³⁰ kg（流质量 2.16 MeV）
 quantity:
   value: 3.85e-30
@@ -71,6 +71,7 @@ visual:
   color: '#8dd5ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Up quark
 ---
 ## 这个读数是什么
 

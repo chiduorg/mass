@@ -5,7 +5,7 @@ summary: >-
   小行星 2005 YU55 总质量约 6.7×10¹⁰ kg，不确定度约三成。它只在 2011
   年近距离飞掠地球时被雷达详细成像，没有探测器环绕，质量只能由雷达形状与密度约束联合推出。
 dimension: mass
-category: 彗星与小行星
+category: 行星与小天体
 displayValue: 6.7×10¹⁰ kg
 quantity:
   value: 67000000000
@@ -80,6 +80,7 @@ visual:
   color: '#d8b46a'
   scaleMin: -40
   scaleMax: 53
+titleEn: 2005 YU55
 ---
 ## 这个读数是什么
 

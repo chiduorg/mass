@@ -6,7 +6,7 @@ summary: >-
   对称性的直接检验。
 dimension: mass
 grade: A
-category: 基本粒子
+category: 粒子与基本常数
 displayValue: 9.109×10⁻³¹ kg
 quantity:
   value: 9.1093837139e-31
@@ -71,6 +71,7 @@ visual:
   color: '#7fe8ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Positron
 ---
 ## 这个读数是什么
 

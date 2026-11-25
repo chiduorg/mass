@@ -6,7 +6,7 @@ summary: >-
   eV，即 1.55×10⁻³⁸ kg。
 dimension: mass
 grade: C
-category: 基本粒子
+category: 粒子与基本常数
 displayValue: ≥ 1.55×10⁻³⁸ kg（约 8.7×10⁻³ eV，下限）
 quantity:
   value: 1.55e-38
@@ -72,6 +72,7 @@ visual:
   color: '#7fe8ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Neutrino mass eigenstate ν₂
 ---
 ## 这个读数是什么
 

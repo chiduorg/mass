@@ -1036,6 +1036,7 @@ function renderBandRail() {
     button.dataset.band = band.id;
     button.innerHTML = `<b>${band.id}</b><span>${bandText(band)}</span><small>${powText(band.from)}–${powText(band.to)}</small>`;
     button.title = `${band.id} · ${bandText(band)} · ${powText(band.from)}–${powText(band.to)} kg`;
+    button.setAttribute('aria-label', `${band.id} ${bandText(band)}，${powText(band.from)} 至 ${powText(band.to)} 千克`);
     button.addEventListener('click', () => {
       stopTour();
       const mid = (band.from + band.to) / 2;
@@ -1235,4 +1236,3 @@ load().catch((error) => {
   $('summary').textContent = '原型数据未能加载：' + error.message;
   $('stage').innerHTML = '<div style="position:absolute;inset:0;display:grid;place-items:center;color:#8ea6b8;font-size:12px;letter-spacing:.1em">3D 场景加载失败</div>';
 });
-
