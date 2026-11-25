@@ -1234,5 +1234,5 @@ document.addEventListener('atlas-language', () => {
 load().catch((error) => {
   console.error(error);
   $('summary').textContent = '原型数据未能加载：' + error.message;
-  $('stage').innerHTML = '<div style="position:absolute;inset:0;display:grid;place-items:center;color:#8ea6b8;font-size:12px;letter-spacing:.1em">3D 场景加载失败</div>';
+  $('stage').innerHTML = '<div class="canvas-fallback stage-failure" style="position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:24px;color:#8ea6b8"><div><strong style="display:block;color:#d7e2ea;font-size:15px;letter-spacing:.08em;margin-bottom:10px">3D 图景未加载</strong><p style="max-width:26em;margin:0 auto;font-size:12px;line-height:1.8">当前设备暂不支持 WebGL。对象信息、尺度尺与比较数据仍可使用，不影响文字阅读。</p><a href="/library/" style="display:inline-block;margin-top:14px;font-size:12px;color:#8ec5ff;text-decoration:none">打开知识库 →</a></div></div>';
 });
